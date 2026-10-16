@@ -72,7 +72,7 @@ class Store(ctx: Context) : SQLiteOpenHelper(ctx, "kama_sona.db", null, 1) {
      * Add any cards that are not present yet. The inserts use CONFLICT_IGNORE so
      * this is safe to call repeatedly — it tops the deck up rather than resetting it.
      */
-    fun seedMissing(words: List<Word>, directions: List<String>) {
+    fun seedMissing(words: List<Word>, directions: List<String>, deck: String = "vocab") {
         val db = writableDatabase
         db.beginTransaction()
         try {
@@ -81,6 +81,7 @@ class Store(ctx: Context) : SQLiteOpenHelper(ctx, "kama_sona.db", null, 1) {
                     val cv = ContentValues().apply {
                         put("word", w.word)
                         put("direction", d)
+                        put("deck", deck)
                         put("ease", 2.5)
                         put("interval_days", 0.0)
                         put("due", System.currentTimeMillis())
