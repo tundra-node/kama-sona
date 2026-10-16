@@ -17,6 +17,7 @@ class Store(ctx: Context) : SQLiteOpenHelper(ctx, "kama_sona.db", null, 1) {
                  id INTEGER PRIMARY KEY AUTOINCREMENT,
                  word TEXT NOT NULL,
                  direction TEXT NOT NULL,
+                 deck TEXT NOT NULL DEFAULT 'vocab',
                  ease REAL NOT NULL DEFAULT 2.5,
                  interval_days REAL NOT NULL DEFAULT 0,
                  reps INTEGER NOT NULL DEFAULT 0,
@@ -106,7 +107,7 @@ class Store(ctx: Context) : SQLiteOpenHelper(ctx, "kama_sona.db", null, 1) {
         val knownClause = if (includeNew) "" else " AND reps > 0"
         return readableDatabase.rawQuery(
             "SELECT id,word,direction,ease,interval_days,reps,lapses,due,last,known " +
-                "FROM cards WHERE due <= $now$knownClause ORDER BY due ASC, id ASC LIMIT $limit",
+                "FROM cards WHERE due <= $now$knownClause ORDER BY RANDOM() LIMIT $limit",
             null
         ).use { c ->
             val out = ArrayList<Card>(c.count)
