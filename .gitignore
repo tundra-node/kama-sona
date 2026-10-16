@@ -40,3 +40,4 @@ app/debug/
 # tools working dirs
 tools/data/
 tools/audio_urls.txt
+tools/data/
