@@ -1,0 +1,15 @@
+#:schema ../../../api/generated/v2/fingerspelling.json
+id = "U-1"
+is_two_handed = false
+
+[[etymology]]
+language = "LSF"
+sign = "U, V"
+
+[signwriting]
+fsw = "M508x515S11520493x485"
+swu = "𝠃𝤎𝤕񀠁𝣿𝣷"
+
+[translations.parameters]
+handshape = "2"
+orientation = "palm outwards"

@@ -1,0 +1,15 @@
+#:schema ../../../api/generated/v2/fingerspelling.json
+id = "A-2"
+is_two_handed = true
+
+[[etymology]]
+language = "BSL"
+sign = "A"
+
+[signwriting]
+fsw = "M521x526S10011500x496S15218479x474S20500501x484"
+swu = "𝠃𝤛𝤠񀀒𝤆𝤂񁻙𝣱𝣬񆇡𝤇𝣶"
+
+[translations.parameters]
+handshape = "1 + 5"
+placement = "touch the thumb"

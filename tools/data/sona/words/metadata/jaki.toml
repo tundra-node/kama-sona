@@ -1,0 +1,75 @@
+#:schema ../../api/generated/v2/word.json
+id = "jaki"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = []
+source_language = "English"
+usage_category = "core"
+word = "jaki"
+deprecated = false
+glyph_ids = ["jaki-1"]
+primary_glyph_id = "jaki-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/jaki.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/jaki.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jaki.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/jaki.mp3"
+
+[ku_data]
+bacteria = 67
+bullshit = 27
+crap = 47
+dirty = 93
+disease = 37
+disgusting = 79
+garbage = 86
+gross = 87
+illness = 20
+infection = 44
+junk = 75
+mess = 82
+nasty = 62
+pollution = 27
+shit = 33
+toxic = 47
+trash = 89
+virus = 30
+waste = 47
+
+[pu_verbatim]
+de = "ADJEKTIV eklig, obszön, krank, giftig, unsauber, unhygienisch"
+en = "ADJECTIVE disgusting, obscene, sickly, toxic, unclean, unsanitary"
+eo = "ADJEKTIVO naŭza, obscena, malagrabla, toksa, malpura, malhigiena"
+fr = "ADJECTIF dégoûtant, obscène, maladif, toxique, impur, insalubre"
+
+[representations]
+ligatures = ["jaki"]
+ucsur = "U+F1910"
+sitelen_emosi = "💩"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/jaki.jpg"
+sitelen_jelo = ["💩"]
+
+[usage]
+2022-08 = 99
+2023-09 = 99
+2024-09 = 100
+2025-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/jaki"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#jaki"
+
+[translations]
+commentary = ""
+definition = "disgusting, unclean, unsanitary, toxic, repulsive, rotten"
+etymology = "yucky: English, yucky"

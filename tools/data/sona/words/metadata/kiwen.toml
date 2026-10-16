@@ -1,0 +1,68 @@
+#:schema ../../api/generated/v2/word.json
+id = "kiwen"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = []
+source_language = "Finnish"
+usage_category = "core"
+word = "kiwen"
+deprecated = false
+glyph_ids = ["kiwen-1"]
+primary_glyph_id = "kiwen-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kiwen.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kiwen.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kiwen.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/kiwen.mp3"
+
+[ku_data]
+concrete = 60
+firm = 44
+"hard object" = 79
+iron = 50
+metal = 57
+plastic = 25
+rock = 93
+silver = 31
+solid = 100
+steel = 56
+stiff = 44
+stone = 84
+
+[pu_verbatim]
+de = "NOMEN hartes Objekt, Metall, Fels, Stein"
+en = "NOUN hard object, metal, rock, stone"
+eo = "SUBSTANTIVO malmolaĵo, metalo, roko, ŝtono"
+fr = "NOM objet dur, métal, pierre"
+
+[representations]
+ligatures = ["kiwen"]
+ucsur = "U+F191B"
+sitelen_emosi = "💎"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kiwen.jpg"
+sitelen_jelo = ["💎"]
+
+[usage]
+2022-08 = 99
+2023-09 = 99
+2024-09 = 100
+2025-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kiwen"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#kiwen"
+
+[translations]
+commentary = 'This word was coined in a poll in 2002, replacing the compound phrase "wawa ma".'
+definition = "hard object e.g. metal, stone, wood"
+etymology = "kiven: Finnish, stone (genitive case)"

@@ -1,0 +1,59 @@
+#:schema ../../api/generated/v2/word.json
+id = "kala"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = []
+source_language = "Finnish"
+usage_category = "core"
+word = "kala"
+deprecated = false
+glyph_ids = ["kala-1", "kala-2"]
+primary_glyph_id = "kala-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kala.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kala.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kala.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/kala.mp3"
+
+[ku_data]
+fish = 100
+salmon = 62
+"sea creature" = 82
+
+[pu_verbatim]
+de = "NOMEN Fisch, Seetier, Meerestier"
+en = "NOUN fish, marine animal, sea creature"
+eo = "SUBSTANTIVO fiŝo, mara besto, mara vivaĵo"
+fr = "NOM poisson, animal sous-marin"
+
+[representations]
+ligatures = ["kala01", "kala02"]
+ucsur = "U+F1914"
+sitelen_emosi = "🐟"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kala.jpg"
+sitelen_jelo = ["🐟"]
+
+[usage]
+2022-08 = 99
+2023-09 = 99
+2024-09 = 99
+2025-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kala"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#kala"
+
+[translations]
+commentary = ""
+definition = "fish, marine animal, sea creature, swimming creature"
+etymology = "kala: Finnish, fish"

@@ -1,0 +1,63 @@
+#:schema ../../api/generated/v2/word.json
+id = "pan"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = "2007-07"
+author = ["jan Sonja"]
+see_also = ["moku", "kili"]
+source_language = "multiple"
+usage_category = "core"
+word = "pan"
+deprecated = false
+glyph_ids = ["pan-1"]
+primary_glyph_id = "pan-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/pan.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/pan.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pan.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/pan.mp3"
+
+[ku_data]
+bread = 100
+carbohydrate = 25
+corn = 30
+grain = 81
+rice = 53
+wheat = 67
+
+[pu_verbatim]
+de = "NOMEN Getreide, Korn; Gerste, Mais, Hafer, Reis, Weizen; Brot, Nudeln"
+en = "NOUN cereal, grain; barley, corn, oat, rice, wheat; bread, pasta"
+eo = "SUBSTANTIVO greno, cerealo; aveno, hordeo, maizo, rizo, tritiko; pano, pastaĵo"
+fr = "NOM céréale ; riz, blé, orge, maïs, avoine ; pain, pâtes"
+
+[representations]
+ligatures = ["pan"]
+ucsur = "U+F194B"
+sitelen_emosi = "🍞"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pan.jpg"
+sitelen_jelo = ["🍞"]
+
+[usage]
+2020-04 = 96
+2022-08 = 98
+2023-09 = 99
+2024-09 = 99
+2025-09 = 98
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/pan"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#pan"
+
+[translations]
+commentary = ""
+definition = "grains, starchy foods, baked goods e.g. rice, sorghum, bread, noodles, masa, porridge, injera"
+etymology = "pan: Romance, bread; パン (pan): Japanese, bread; pão: Portuguese, bread"

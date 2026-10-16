@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/stats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="@color/textSecondary" />
+
+    <LinearLayout
+        android:id="@+id/setup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="16dp">
+
+        <Button
+            android:id="@+id/seed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="add every word to the deck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:textSize="12sp"
+            android:text="Adds three card types per word: toki pona → English, English → toki pona, and sitelen pona → toki pona. Safe to press twice — it only adds what is missing."
+            android:textColor="@color/textSecondary" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/review"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textSize="12sp"
+            android:textColor="@color/textSecondary" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/surface"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/promptKind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/textSecondary" />
+
+            <TextView
+                android:id="@+id/prompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="14dp"
+                android:textSize="34sp"
+                android:textColor="@color/accent" />
+
+            <TextView
+                android:id="@+id/answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="14dp"
+                android:textSize="17sp"
+                android:lineSpacingMultiplier="1.2"
+                android:visibility="invisible"
+                android:textColor="@color/textPrimary" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/reveal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="show answer" />
+
+        <LinearLayout
+            android:id="@+id/grades"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <Button android:id="@+id/gAgain" android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:text="again" />
+            <Button android:id="@+id/gHard" android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:layout_marginStart="6dp" android:text="hard" />
+            <Button android:id="@+id/gGood" android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:layout_marginStart="6dp" android:text="good" />
+            <Button android:id="@+id/gEasy" android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:layout_marginStart="6dp" android:text="easy" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/nextInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:textSize="12sp"
+            android:textColor="@color/textSecondary" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="40dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/doneText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/textPrimary" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="start review" />
+    </LinearLayout>
+
+</LinearLayout>

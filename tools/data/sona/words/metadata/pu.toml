@@ -1,0 +1,58 @@
+#:schema ../../api/generated/v2/word.json
+id = "pu"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = "2009-10-01"
+author = ["jan Sonja"]
+see_also = ["ku", "su"]
+source_language = "multiple possibilities"
+usage_category = "core"
+word = "pu"
+deprecated = false
+glyph_ids = ["pu-1"]
+primary_glyph_id = "pu-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/pu.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/pu.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pu.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/pu.mp3"
+
+[ku_data]
+"interact with Toki Pona: The Language of Good" = 82
+officially = 27
+
+[pu_verbatim]
+de = "ADJEKTIV mit dem offiziellen Toki-Pona-Buch interagierend"
+en = "ADJECTIVE interacting with the official Toki Pona book"
+eo = "ADJEKTIVO interaganta kun la oficiala libro de Tokipono"
+fr = "ADJECTIF interagissant avec le livre officiel du Toki Pona"
+
+[representations]
+ligatures = ["pu"]
+ucsur = "U+F1955"
+sitelen_emosi = "📖"
+sitelen_jelo = ["🧘"]
+
+[usage]
+2020-04 = 82
+2022-08 = 94
+2023-09 = 96
+2024-09 = 95
+2025-09 = 94
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/pu"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#pu"
+
+[translations]
+commentary = "For ways to buy a copy of the book, visit the official Toki Pona website."
+definition = "interacting with the book Toki Pona: The Language of Good by Sonja Lang"
+etymology = "樸 (pǔ): Mandarin, unworked wood, sincere, honest, inherent quality, simple; book: English, book"

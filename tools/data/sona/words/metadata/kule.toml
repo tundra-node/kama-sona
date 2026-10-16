@@ -1,0 +1,63 @@
+#:schema ../../api/generated/v2/word.json
+id = "kule"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = []
+source_language = "Acadian French"
+usage_category = "core"
+word = "kule"
+deprecated = false
+glyph_ids = ["kule-1"]
+primary_glyph_id = "kule-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kule.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kule.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kule.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/kule.mp3"
+
+[ku_data]
+"LGBTQ+" = 35
+colour = 100
+diverse = 36
+gay = 30
+lesbian = 30
+paint = 33
+spectrum = 27
+
+[pu_verbatim]
+de = "ADJEKTIV bunt, pigmentiert, gemalt"
+en = "ADJECTIVE colourful, pigmented, painted"
+eo = "ADJEKTIVO kolora, pigmenta, pentrita"
+fr = "ADJECTIF coloré, pigmenté, peint"
+
+[representations]
+ligatures = ["kule"]
+ucsur = "U+F191E"
+sitelen_emosi = "🌈"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kule.jpg"
+sitelen_jelo = ["🌈"]
+
+[usage]
+2022-08 = 99
+2023-09 = 99
+2024-09 = 99
+2025-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kule"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#kule"
+
+[translations]
+commentary = "in addition to its pu-definitions, kule is sometimes used to talk about more general kinds of categories, like type, kind, flavour, gender, etc."
+definition = "color, pigment; category, genre, flavor; colorful, diverse"
+etymology = "couleur: Acadian French, color"

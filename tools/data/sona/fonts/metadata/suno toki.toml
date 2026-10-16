@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/font.json
+id = "suno toki"
+author = ["jan Ke Tami"]
+features = [
+  "ASCII transcription",
+  "cartouches",
+  "color font",
+  "auto-cartouching",
+  "long pi",
+]
+filename = "suno-toki.otf"
+last_updated = "2024-11"
+license = "OFL"
+ligatures = true
+name = "suno toki"
+style = "handwritten"
+ucsur = true
+version = "2.1"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://github.com/RetSamys/suno-toki/raw/main/suno-toki.otf"
+repo = "https://github.com/RetSamys/suno-toki/"
+webpage = "https://www.youtube.com/watch?v=6Emk0nvFFVw"

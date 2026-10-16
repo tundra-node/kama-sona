@@ -1,0 +1,67 @@
+#:schema ../../api/generated/v2/word.json
+id = "ko"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = []
+source_language = "Cantonese"
+usage_category = "core"
+word = "ko"
+deprecated = false
+glyph_ids = ["ko-1", "ko-2"]
+primary_glyph_id = "ko-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ko.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ko.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ko.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/ko.mp3"
+
+[ku_data]
+clay = 60
+cream = 33
+dough = 30
+dust = 36
+goo = 88
+mud = 28
+paste = 73
+powder = 73
+sand = 38
+semisolid = 86
+substance = 33
+
+[pu_verbatim]
+de = "NOMEN Lehm, Haftendes, Knete, Teig, Halbfestes, Paste, Puder"
+en = "NOUN clay, clinging form, dough, semi-solid, paste, powder"
+eo = "SUBSTANTIVO argilo, kunteniĝanta aŭ glueca formo, pasto, duonsolidaĵo, pulvoro"
+fr = "NOM argle, pâte, poudre, substance collante, semi-solide"
+
+[representations]
+ligatures = ["ko01", "ko02"]
+ucsur = "U+F191C"
+sitelen_emosi = "🍦"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ko.jpg"
+sitelen_jelo = ["🍦"]
+
+[usage]
+2022-08 = 98
+2023-09 = 99
+2024-09 = 99
+2025-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/ko"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#ko"
+
+[translations]
+commentary = 'The "clinging form" definition was elaborated to mean "a shape or mass that sticks or clings; a clot, a thick or viscous lump, a clump that can be reshaped".'
+definition = "semi-solid, e.g. paste, powder, goo, sand, soil, clay; squishy, moldable; sticky"
+etymology = "膏 (gou): Cantonese, cream, paste"

@@ -1,0 +1,88 @@
+#:schema ../../api/generated/v2/word.json
+id = "ken"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = []
+source_language = "Tok Pisin"
+usage_category = "core"
+word = "ken"
+deprecated = false
+glyph_ids = ["ken-1"]
+primary_glyph_id = "ken-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ken.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ken.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ken.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/ken.mp3"
+
+[ku_data]
+ability = 93
+able = 100
+allow = 30
+available = 53
+can = 79
+capability = 92
+capable = 90
+chance = 57
+could = 81
+eligible = 80
+enable = 33
+freedom = 27
+liberty = 36
+likelihood = 60
+likely = 30
+may = 88
+maybe = 53
+might = 33
+odds = 45
+opportunity = 53
+option = 33
+perhaps = 40
+permission = 69
+possibility = 75
+possible = 86
+possibly = 50
+potential = 94
+potentially = 40
+privilege = 31
+probability = 56
+prospect = 27
+viable = 33
+
+[pu_verbatim]
+de = "HILFSVERB etw. können, etw. dürfen\nADJEKTIV möglich"
+en = "PRE-VERB to be able to, be allowed to, can, may\nADJECTIVE possible"
+eo = "ANTAŬVERBO povi, rajti\nADJEKTIVO ebla"
+fr = "AUXILIAIRE pouvoir\nADJECTIF possible"
+
+[representations]
+ligatures = ["ken"]
+ucsur = "U+F1918"
+sitelen_emosi = "💪"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ken.jpg"
+sitelen_jelo = ["💪"]
+
+[usage]
+2022-08 = 99
+2023-09 = 100
+2024-09 = 100
+2025-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/ken"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#ken"
+
+[translations]
+commentary = ""
+definition = "can, may, ability, permission; possibility, maybe; allow, enable; (preverb) to be able to"
+etymology = "ken: Tok Pisin, can; can: English, can"

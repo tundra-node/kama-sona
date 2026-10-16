@@ -1,0 +1,66 @@
+#:schema ../../api/generated/v2/word.json
+id = "nena"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = []
+source_language = "Finnish"
+usage_category = "core"
+word = "nena"
+deprecated = false
+glyph_ids = ["nena-1", "nena-2"]
+primary_glyph_id = "nena-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/nena.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/nena.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/nena.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/nena.mp3"
+
+[ku_data]
+breast = 19
+button = 33
+fold = 13
+hill = 67
+mount = 18
+mountain = 25
+nose = 50
+peak = 29
+pile = 22
+ridge = 33
+
+[pu_verbatim]
+de = "NOMEN Delle, Knopf, Hügel, Berg, Nase, Vorsprung"
+en = "NOUN bump, button, hill, mountain, nose, protuberance"
+eo = "SUBSTANTIVO elstara malebenaĵo, elstaraĵo, tubero, butono, monteto, monto, nazo"
+fr = "NOM nez ; bosse, colline, montagne ; bouton"
+
+[representations]
+ligatures = ["nena01", "nena02"]
+ucsur = "U+F1940"
+sitelen_emosi = "🗻"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nena.jpg"
+sitelen_jelo = ["🗻"]
+
+[usage]
+2022-08 = 97
+2023-09 = 99
+2024-09 = 99
+2025-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/nena"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#nena"
+
+[translations]
+commentary = ""
+definition = "protuberances e.g. bump, button, hill, nose"
+etymology = "nenä: Finnish, nose"

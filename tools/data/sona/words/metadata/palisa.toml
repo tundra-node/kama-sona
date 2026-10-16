@@ -1,0 +1,66 @@
+#:schema ../../api/generated/v2/word.json
+id = "palisa"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = ["linja"]
+source_language = "Serbo-Croatian"
+usage_category = "core"
+word = "palisa"
+deprecated = false
+glyph_ids = ["palisa-1"]
+primary_glyph_id = "palisa-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/palisa.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/palisa.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/palisa.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/palisa.mp3"
+
+[ku_data]
+bar = 25
+beam = 18
+branch = 60
+pole = 67
+rod = 94
+staff = 41
+stake = 80
+stem = 18
+stick = 100
+straight = 25
+
+[pu_verbatim]
+de = "NOMEN langes hartes Ding; Ast, Stange, Stab"
+en = "NOUN long hard thing; branch, rod, stick"
+eo = "SUBSTANTIVO io longa kaj rigida; branĉo, stango, bastono"
+fr = "NOM objet long et dur : bâton"
+
+[representations]
+ligatures = ["palisa"]
+ucsur = "U+F194A"
+sitelen_emosi = "📏"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/palisa.jpg"
+sitelen_jelo = ["📏"]
+
+[usage]
+2022-08 = 99
+2023-09 = 99
+2024-09 = 100
+2025-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/palisa"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#palisa"
+
+[translations]
+commentary = ""
+definition = "long and hard thing e.g. branch, pole, rod, stick, spine, mast"
+etymology = "палица (palica): Serbo-Croatian, bat, rod, cane"

@@ -1,0 +1,20 @@
+#:schema ../../api/generated/v2/font.json
+id = "nasin leko suwi lili"
+author = ["Bo_Tie"]
+features = [
+  "codepoints only",
+  "UCSUR-compliant",
+  "all UCSUR 2022 words",
+]
+filename = "nasin-leko-suwi-lili.ttf"
+last_updated = "2023-02"
+license = "Fontstruct ND NC"
+ligatures = false
+name = "nasin leko suwi lili"
+style = "pixelated"
+ucsur = true
+version = "1.0"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://cdn.discordapp.com/attachments/952797418381000806/1078714229034590238/nasin-leko-suwi-lili.ttf"

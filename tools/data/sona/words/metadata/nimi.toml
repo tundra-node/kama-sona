@@ -1,0 +1,64 @@
+#:schema ../../api/generated/v2/word.json
+id = "nimi"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = []
+source_language = "Finnish"
+usage_category = "core"
+word = "nimi"
+deprecated = false
+glyph_ids = ["nimi-1"]
+primary_glyph_id = "nimi-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/nimi.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/nimi.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/nimi.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/nimi.mp3"
+
+[ku_data]
+brand = 29
+label = 33
+lyrics = 40
+name = 100
+so-called = 29
+term = 55
+title = 50
+word = 100
+
+[pu_verbatim]
+de = "NOMEN Name, Wort"
+en = "NOUN name, word"
+eo = "SUBSTANTIVO nomo, vorto"
+fr = "NOM mot, nom"
+
+[representations]
+ligatures = ["nimi"]
+ucsur = "U+F1942"
+sitelen_emosi = "💬"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nimi.jpg"
+sitelen_jelo = ["📛"]
+
+[usage]
+2022-08 = 99
+2023-09 = 100
+2024-09 = 100
+2025-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/nimi"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#nimi"
+
+[translations]
+commentary = ""
+definition = "word, name"
+etymology = "nimi: Finnish, name"

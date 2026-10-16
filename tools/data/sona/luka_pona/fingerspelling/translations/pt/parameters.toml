@@ -1,0 +1,128 @@
+[A-1]
+handshape = "OpenA"
+orientation = "palma para fora"
+
+[A-2]
+handshape = "1 + 5"
+placement = "toque o polegar"
+
+[E-1]
+handshape = "BentB"
+orientation = "palma para fora"
+
+[E-2]
+handshape = "1 + 5"
+placement = "toque o dedo indicador"
+
+[I-1]
+handshape = "1"
+orientation = "palma para fora"
+
+[I-2]
+handshape = "1 + 5"
+placement = "toque o dedo do meio"
+
+[J-1]
+handshape = "1"
+movement = "dedos viram para dentro"
+orientation = "palma para fora"
+
+[J-2]
+handshape = "1 + 5"
+movement = "desenhe um J na mão"
+placement = "toque a palma"
+
+[J-2-ANTE]
+handshape = "1 + FlatB"
+orientation = "palma para baixo + palma para baixo"
+placement = "toque a base do polegar"
+
+[K-1]
+handshape = "2"
+orientation = "palma para dentro"
+
+[K-2]
+handshape = "9 + 1"
+placement = "toque a base dos dedos"
+
+[L-1]
+handshape = "L"
+orientation = "palma para fora"
+
+[L-2]
+handshape = "1 + FlatB"
+orientation = "palma para cima + palma para baixo"
+placement = "toque a palma"
+
+[M-1]
+handshape = "BentB"
+orientation = "palma para baixo"
+
+[M-2]
+handshape = "FlatB + FlatB"
+orientation = "palma para cima + palma para baixo"
+placement = "toque a palma"
+
+[N-1]
+handshape = "2"
+orientation = "palma para baixo"
+
+[N-2]
+handshape = "2 + FlatB"
+orientation = "palma para cima + palma para baixo"
+placement = "toque a palma"
+
+[O-1]
+handshape = "O"
+orientation = "palma para fora"
+
+[O-2]
+handshape = "1 + 5"
+placement = "toque o dedo anelar"
+
+[P-1]
+handshape = "FlatB"
+orientation = "palma para fora"
+
+[P-2]
+handshape = "9 + 1"
+placement = "toque a ponta do dedo"
+
+[S-1]
+handshape = "5"
+orientation = "palma para fora"
+
+[S-2]
+handshape = "FlatB + FlatB"
+orientation = "palma para baixo + palma de lado"
+placement = "toque a palma"
+
+[T-1]
+handshape = "L"
+orientation = "palma para baixo"
+
+[T-2]
+handshape = "1 + FlatB"
+placement = "toque a borda da mão"
+
+[U-1]
+handshape = "2"
+orientation = "palma para fora"
+
+[U-2]
+handshape = "1 + 5"
+placement = "toque o dedo mindinho"
+
+[W-1]
+handshape = "2"
+movement = "movimento circular vertical"
+orientation = "palma para fora"
+
+[W-2]
+handshape = "5 + 5"
+placement = "dedos em malha"
+
+[W-2-ANTE]
+handshape = "2 + FlatB"
+orientation = "palma para cima + palma para baixo"
+placement = "toque a palma"

@@ -1,0 +1,79 @@
+#:schema ../../api/generated/v2/word.json
+id = "sewi"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = ["anpa"]
+source_language = "Georgian"
+usage_category = "core"
+word = "sewi"
+deprecated = false
+glyph_ids = ["sewi-2", "sewi-1"]
+primary_glyph_id = "sewi-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/sewi.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/sewi.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/sewi.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/sewi.mp3"
+
+[ku_data]
+God = 39
+above = 36
+arise = 25
+divine = 100
+elevated = 69
+high = 60
+highly = 47
+holy = 73
+magical = 30
+peak = 43
+raise = 50
+religious = 25
+rise = 37
+sacred = 80
+sky = 71
+spiritual = 50
+summit = 27
+superior = 36
+supreme = 50
+top = 76
+upper = 100
+upstairs = 25
+weather = 25
+
+[pu_verbatim]
+de = "NOMEN Bereich über etw., höchster Teil, etwas hoch Gelegenes\nADJEKTIV ehrfurchtgebietend, göttlich, heilig, übernatürlich"
+en = "NOUN area above, highest part, something elevated\nADJECTIVE awe-inspiring, divine, sacred, supernatural"
+eo = "SUBSTANTIVO spaco super io, plej alta parto de io, io pli alta\nADJEKTIVO miriga, dia, sankta, supernatura"
+fr = "NOM dessus, le haut, chose élevée\nADJECTIF divin, sacré, surnaturel, qui inspire le respect et la crainte"
+
+[representations]
+ligatures = ["sewi01", "sewi02"]
+ucsur = "U+F195A"
+sitelen_emosi = "⬆️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sewi.jpg"
+sitelen_jelo = ["☁️"]
+
+[usage]
+2022-08 = 100
+2023-09 = 99
+2024-09 = 100
+2025-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/sewi"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#sewi"
+
+[translations]
+commentary = ""
+definition = "up, top, highest part, area above, sky; divine, sacred, supernatural; awesome, inspiring, excelling"
+etymology = "ზევით (zevit): Georgian, upwards"

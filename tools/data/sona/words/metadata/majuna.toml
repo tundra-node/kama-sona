@@ -1,0 +1,56 @@
+#:schema ../../api/generated/v2/word.json
+id = "majuna"
+author_verbatim = ""
+author_source = ""
+book = "ku lili"
+coined_era = "pre-pu"
+creation_date = "2000-2001"
+author = ["jan Sonja"]
+see_also = ["suli", "tenpo"]
+source_language = "Esperanto"
+usage_category = "uncommon"
+word = "majuna"
+deprecated = false
+glyph_ids = ["majuna-1", "majuna-2"]
+primary_glyph_id = "majuna-2"
+# teachability = 3
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/majuna.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/majuna.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/majuna.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/majuna.mp3"
+
+[ku_data]
+ancient = 17
+elder = 15
+elderly = 36
+historical = 20
+old = 33
+senior = 21
+
+[representations]
+ligatures = ["majuna02", "majuna01"]
+ucsur = "U+F19A2"
+sitelen_emosi = "👵"
+sitelen_jelo = ["🪷", "💾", "🧓"]
+
+[usage]
+2020-04 = 38
+2021-10 = 59
+2022-08 = 32
+2023-09 = 34
+2024-09 = 46
+2025-09 = 51
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/majuna"
+
+[translations]
+commentary = ""
+definition = "old, aged, ancient"
+etymology = "maljuna: Esperanto, old (not young); malus: Latin, bad; jung: German, young; jeune: French, young"

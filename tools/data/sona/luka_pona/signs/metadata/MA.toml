@@ -1,0 +1,33 @@
+#:schema ../../../api/generated/v2/sign.json
+definition = "ma"
+id = "MA"
+is_two_handed = false
+new_gloss = "MA"
+old_gloss = "MA"
+old_id = "MA"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "AREA"
+
+[[etymology]]
+language = "toki pona luka pu"
+sign = "ma"
+
+[[etymology]]
+language = "Toki Pona Sign Language (Chuff)"
+sign = "ma"
+
+[signwriting]
+fsw = "AS15a50S2eb0aM516x525S15a50493x475S2eb0a484x510"
+swu = "𝠀񂈑񋠫𝠃𝤖𝤟񂈑𝣿𝣭񋠫𝣶𝤐"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/ma.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/ma.mp4"
+
+[translations]
+icons = "the land of a place"
+[translations.parameters]
+handshape = "FlatB"
+movement = "horizontal circle movement"

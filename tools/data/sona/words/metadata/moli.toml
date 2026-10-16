@@ -1,0 +1,64 @@
+#:schema ../../api/generated/v2/word.json
+id = "moli"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = ["pini"]
+source_language = "Acadian French"
+usage_category = "core"
+word = "moli"
+deprecated = false
+glyph_ids = ["moli-2", "moli-1"]
+primary_glyph_id = "moli-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/moli.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/moli.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/moli.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/moli.mp3"
+
+[ku_data]
+dead = 94
+deadly = 38
+death = 100
+die = 75
+dying = 69
+execution = 27
+kill = 64
+killing = 100
+
+[pu_verbatim]
+de = "ADJEKTIV tot, sterbend"
+en = "ADJECTIVE dead, dying"
+eo = "ADJEKTIVO mortinta, mortanta"
+fr = "ADJECTIF mort, mourant"
+
+[representations]
+ligatures = ["moli01", "moli02"]
+ucsur = "U+F1937"
+sitelen_emosi = "💀"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/moli.jpg"
+sitelen_jelo = ["😵"]
+
+[usage]
+2022-08 = 99
+2023-09 = 99
+2024-09 = 100
+2025-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/moli"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#moli"
+
+[translations]
+commentary = ""
+definition = "death, dead, die, dying; kill, murder"
+etymology = "mourir: Acadian French, die"

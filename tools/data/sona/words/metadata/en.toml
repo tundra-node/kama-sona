@@ -1,0 +1,57 @@
+#:schema ../../api/generated/v2/word.json
+id = "en"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = []
+source_language = "Dutch"
+usage_category = "core"
+word = "en"
+deprecated = false
+glyph_ids = ["en-1"]
+primary_glyph_id = "en-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/en.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/en.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/en.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/en.mp3"
+
+[ku_data]
+and = 50
+plus = 50
+
+[pu_verbatim]
+de = "PARTIKEL (zwischen mehreren Subjekten)"
+en = "PARTICLE (between multiple subjects)"
+eo = "PARTIKULO (inter pluraj subjektoj)"
+fr = "PARTICULE (entre plusieurs sujets)"
+
+[representations]
+ligatures = ["en"]
+ucsur = "U+F190A"
+sitelen_emosi = "➕"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/en.jpg"
+sitelen_jelo = ["🤝"]
+
+[usage]
+2022-08 = 98
+2023-09 = 99
+2024-09 = 99
+2025-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/en"
+
+[translations]
+commentary = "There are various analyses of the syntactic role of \"en\". Originally intended to be used as \"and\", it was changed (via poll in 2002) to just be used with \"head nouns\". One of the more recent analyses (including 2021's April Fools) treats \"en\" as a subject marker."
+definition = "(particle) [separates multiple subjects]"
+etymology = "en: Dutch, and"

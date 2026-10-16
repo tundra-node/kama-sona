@@ -1,0 +1,60 @@
+#:schema ../../api/generated/v2/word.json
+id = "monsi"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = ["sinpin"]
+source_language = "Acadian French"
+usage_category = "core"
+word = "monsi"
+deprecated = false
+glyph_ids = ["monsi-1", "monsi-2"]
+primary_glyph_id = "monsi-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/monsi.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/monsi.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/monsi.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/monsi.mp3"
+
+[ku_data]
+ass = 67
+"back (anatomy)" = 73
+behind = 35
+butt = 93
+
+[pu_verbatim]
+de = "NOMEN Rücken, Hintern, Rückseite"
+en = "NOUN back, behind, rear"
+eo = "SUBSTANTIVO dorso, malantaŭo"
+fr = "NOM dos, derrière, arrière"
+
+[representations]
+ligatures = ["monsi01", "monsi02"]
+ucsur = "U+F1938"
+sitelen_emosi = "⬅️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/monsi.jpg"
+sitelen_jelo = ["🍑"]
+
+[usage]
+2022-08 = 97
+2023-09 = 99
+2024-09 = 99
+2025-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/monsi"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#monsi"
+
+[translations]
+commentary = ""
+definition = "back, rear, area behind"
+etymology = "mon tchu: Acadian French, my ass (vulgar)"

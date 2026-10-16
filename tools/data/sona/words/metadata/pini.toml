@@ -1,0 +1,79 @@
+#:schema ../../api/generated/v2/word.json
+id = "pini"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = ["open", "kama"]
+source_language = "multiple possibilities"
+usage_category = "core"
+word = "pini"
+deprecated = false
+glyph_ids = ["pini-1"]
+primary_glyph_id = "pini-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/pini.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/pini.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pini.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/pini.mp3"
+
+[ku_data]
+cancel = 43
+cease = 70
+"close (v)" = 65
+closed = 64
+complete = 47
+conclude = 70
+conclusion = 40
+end = 100
+ending = 80
+final = 50
+finish = 94
+interrupt = 32
+latter = 55
+lock = 30
+off = 44
+outcome = 70
+over = 29
+pause = 33
+previous = 36
+quit = 55
+result = 40
+shut = 87
+stop = 47
+
+[pu_verbatim]
+de = "ADJEKTIV vorbei, vollendet, beendet, geendet, vergangen"
+en = "ADJECTIVE ago, completed, ended, finished, past"
+eo = "ADJEKTIVO antaŭa, finfarita, finita, finiĝinta, pasinta"
+fr = "ADJECTIF fini, passé, terminé"
+
+[representations]
+ligatures = ["pini"]
+ucsur = "U+F1950"
+sitelen_emosi = "🏁"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pini.jpg"
+sitelen_jelo = ["🏁", "🛑"]
+
+[usage]
+2022-08 = 99
+2023-09 = 100
+2024-09 = 100
+2025-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/pini"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#pini"
+
+[translations]
+commentary = 'Some proficient speakers use pini as a preverb that means "to stop," that goes along with the complimentary open preverb "start to"'
+definition = "finish, stop, prevent; close, disable, turn off; ended, past; edge, end, conclusion"
+etymology = "fini: Acadian French, finished, completed; pinis: Tok Pisin, finish (perfective aspect); finish: English, finish"

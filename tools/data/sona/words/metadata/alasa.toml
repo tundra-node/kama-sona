@@ -1,0 +1,72 @@
+#:schema ../../api/generated/v2/word.json
+id = "alasa"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = "2009-10-01"
+author = ["jan Sonja"]
+see_also = ["lukin"]
+source_language = "Acadian French"
+usage_category = "core"
+word = "alasa"
+deprecated = false
+glyph_ids = ["alasa-1"]
+primary_glyph_id = "alasa-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/alasa.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/alasa.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/alasa.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/alasa.mp3"
+
+[ku_data]
+catch = 26
+chase = 39
+collect = 33
+explore = 44
+finding = 58
+gather = 61
+hunt = 100
+hunting = 87
+locate = 38
+pursue = 74
+pursuit = 75
+quest = 33
+search = 75
+seek = 56
+try = 36
+
+[pu_verbatim]
+de = "VERB jagen, nach Nahrung suchen"
+en = "VERB to hunt, forage"
+eo = "VERBO ĉasi, kolekti"
+fr = "VERBE chasser, cueillir"
+
+[representations]
+ligatures = ["alasa"]
+ucsur = "U+F1903"
+sitelen_emosi = "🏹"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/alasa.jpg"
+sitelen_jelo = ["🏹"]
+
+[usage]
+2020-04 = 97
+2022-08 = 97
+2023-09 = 99
+2024-09 = 99
+2025-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/alasa"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#alasa"
+
+[translations]
+commentary = 'The usage of "alasa" as a preverb meaning "try to" is more common than "lukin". In pu, only "lukin" has this meaning.'
+definition = "hunt, forage, search, attempt; (preverb) try to"
+etymology = "à la chasse: Acadian French, hunting, (literally) on the hunt"

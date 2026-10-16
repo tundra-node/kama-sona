@@ -1,0 +1,34 @@
+#:schema ../../api/generated/v2/word.json
+id = "penpo"
+author_verbatim = "tenpo li penpo a"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/1087794149127884961"
+book = "none"
+coined_era = "post-ku"
+creation_date = "2023"
+author = ["jan Kita"]
+see_also = ["kokosila"]
+source_language = "toki pona"
+usage_category = "obscure"
+word = "penpo"
+deprecated = false
+audio = []
+glyph_ids = ["penpo-1"]
+primary_glyph_id = "penpo-1"
+# teachability = 4
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/penpo.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/penpo.svg"
+
+[representations]
+ligatures = ["penpo"]
+
+[usage]
+2024-09 = 5
+2025-09 = 7
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/penpo"
+
+[translations]
+commentary = "Coined in reference to ma pona pi toki pona's \"tenpo pi toki pona taso\" event, shortening it to \"tenpo penpo\"."
+definition = "(equivalent to \"(pi) toki pona taso\")"
+etymology = "(pi) toki pona taso: toki pona, only toki pona"

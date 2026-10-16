@@ -1,0 +1,26 @@
+#:schema ../../../api/generated/v2/sign.json
+definition = "moli"
+id = "MOLI"
+is_two_handed = false
+new_gloss = "MOLI"
+old_gloss = "MOLI"
+old_id = "MOLI"
+
+[[etymology]]
+language = "a priori"
+
+[signwriting]
+fsw = "AS15a54S26606S2ff00M518x543S15a54471x516S26606487x523S2ff00482x483"
+swu = "𝠀񂈕񈙇񋾡𝠃𝤘𝤱񂈕𝣩𝤖񈙇𝣹𝤝񋾡𝣴𝣵"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/moli.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/moli.mp4"
+
+[translations]
+icons = "slashing the neck, common gesture for death"
+[translations.parameters]
+handshape = "FlatB"
+movement = "movement sideways"
+orientation = "palm facing down"
+placement = "placed on neck"

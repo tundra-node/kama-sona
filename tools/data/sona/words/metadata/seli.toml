@@ -1,0 +1,70 @@
+#:schema ../../api/generated/v2/word.json
+id = "seli"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = ["lete"]
+source_language = "Georgian"
+usage_category = "core"
+word = "seli"
+deprecated = false
+glyph_ids = ["seli-1"]
+primary_glyph_id = "seli-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/seli.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/seli.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/seli.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/seli.mp3"
+
+[ku_data]
+bake = 36
+boil = 30
+burn = 70
+burning = 85
+cook = 31
+cooking = 27
+fire = 100
+flame = 83
+heat = 100
+hot = 92
+temperature = 36
+tropical = 17
+warm = 65
+warming = 58
+
+[pu_verbatim]
+de = "NOMEN Feuer; Kochelement, chemische Reaktion, Hitzequelle"
+en = "ADJECTIVE fire; cooking element, chemical reaction, heat source"
+eo = "SUBSTANTIVO fajro; varmiga elemento de kuirilo, kemia reago, fonto de varmo"
+fr = "NOM feu ; élément de cuisson, réaction chimique, chaleur"
+
+[representations]
+ligatures = ["seli"]
+ucsur = "U+F1957"
+sitelen_emosi = "🔥"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/seli.jpg"
+sitelen_jelo = ["🔥"]
+
+[usage]
+2022-08 = 99
+2023-09 = 99
+2024-09 = 100
+2025-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/seli"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#seli"
+
+[translations]
+commentary = "In pu, definitions of seli are described as adjectives. ku's pu corrections clarify that these refer to nouns instead."
+definition = "hot, warm; heat, fire, flame; burn"
+etymology = "ცხელი (cxeli): Georgian, hot"

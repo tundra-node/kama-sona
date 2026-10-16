@@ -1,0 +1,781 @@
+[AKESI]
+handshape = "V"
+orientation = "prsty směrem od sebe"
+placement = "na puse/bradě"
+
+[ALA]
+handshape = "FlatB"
+placement = "rameno"
+
+[ALASA-1]
+handshape = "1"
+movement = "pohyb od sebe"
+
+[ALASA-2]
+handshape = "1"
+movement = "pohyb od sebe"
+
+[ALE-1]
+handshape = "5"
+movement = "svislý krouživý pohyb"
+
+[ALE-2]
+handshape = "5"
+movement = "svislý krouživý pohyb"
+
+[ANPA-LON]
+handshape = "L"
+orientation = "prst směřující dolů"
+
+[ANPA-TAWA]
+handshape = "BentB"
+movement = "pohyb dolů"
+
+[ANTE-KIWEN]
+handshape = "OpenA"
+movement = "palm flip up"
+
+[ANTE-KIWEN-2]
+handshape = "OpenA"
+movement = "palm flip up"
+
+[ANTE-WAN]
+handshape = "1"
+movement = "palm flip up"
+
+[ANTE-WAN-2]
+handshape = "1"
+movement = "palm flip up"
+
+[ANU]
+handshape = "L"
+movement = "palm flip up"
+
+[AWEN-AWEN]
+handshape = "BentB"
+orientation = "palm placed inward"
+placement = "na rameni"
+
+[AWEN-TAWA]
+handshape = "BentB"
+orientation = "palm placed inward"
+movement = "pohyb k sobě"
+
+[EN-KIN-KAN]
+handshape = "L"
+movement = "přetočení dlaně dolů"
+
+[ESUN-1]
+handshape = "BentB"
+movement = "vodorovný krouživý pohyb"
+orientation = "dlaň směřující nahoru"
+
+[ESUN-2]
+handshape = "BentB"
+movement = "vodorovný krouživý pohyb"
+orientation = "dlaň směřující nahoru"
+
+[IJO-LUKA]
+handshape = "1"
+placement = "na protilehlé ruce"
+
+[IJO-NENA]
+handshape = "1"
+placement = "na rameni"
+
+[IKE]
+handshape = "OpenA"
+orientation = "palm outwards"
+
+[ILO]
+handshape = "L"
+placement = "na protilehlé ruce"
+
+[INSA]
+handshape = "L"
+placement = "na hrudi/břiše"
+
+[JAKI]
+handshape = "OpenA"
+orientation = "palm outwards"
+placement = "na očích"
+
+[JAN-LA]
+handshape = "L"
+movement = "pohyb dolů"
+orientation = "dlaň směřující dolů"
+
+[JAN-WAN]
+handshape = "V"
+movement = "pohyb dolů"
+orientation = "prsty směřující nahoru"
+
+[JELO]
+handshape = "F"
+movement = "vedle hlavy"
+
+[JO]
+handshape = "BentB"
+orientation = "dlaň směřující nahoru"
+
+[KALA]
+handshape = "FlatB"
+movement = "třes/kroucení ruky"
+orientation = "dlaň směřující do strany"
+
+[KALAMA-KUTE]
+handshape = "5"
+orientation = "dlaň směřující dolů"
+placement = "vedle hlavy"
+
+[KALAMA-MU]
+handshape = "5"
+orientation = "dlaň směřující dolů"
+placement = "na ústech"
+
+[KASI]
+handshape = "5"
+orientation = "dlaň směřující k sobě"
+
+[KEN-1]
+handshape = "OpenA"
+movement = "pohyb dolů"
+
+[KEN-2]
+handshape = "OpenA"
+movement = "pohyb dolů"
+
+[KEPEKEN]
+handshape = "OpenA"
+movement = "verticle circle movement"
+
+[KIJETESANTAKALU-1]
+handshape = "V"
+placement = "na očích"
+
+[KIJETESANTAKALU-2]
+handshape = "V"
+placement = "na očích"
+
+[KIKI]
+handshape = "F"
+movement = "pohyb nahoru"
+orientation = "dlaň směřující nahoru"
+
+[KILI]
+handshape = "OpenA"
+placement = "na ústech/bradě"
+
+[KIPISI]
+handshape = "V"
+movement = "pohyb dolů"
+
+[KIWEN]
+handshape = "OpenA"
+orientation = "dlaň směřující dolů"
+
+[KO-1]
+handshape = "BentB"
+movement = "verticle circle movement"
+
+[KO-2]
+handshape = "BentB"
+movement = "verticle circle movement"
+
+[KON]
+handshape = "5"
+movement = "třes/kroucení ruky"
+
+[KULE]
+handshape = "F"
+movement = "verticle circle movement"
+
+[KULUPU-JAN]
+handshape = "1"
+movement = "vodorovný krouživý pohyb"
+
+[KULUPU-MUTE]
+handshape = "5"
+movement = "vodorovný krouživý pohyb"
+
+[KULUPU-MUTE-2]
+handshape = "5"
+movement = "vodorovný krouživý pohyb"
+
+[KUTE]
+handshape = "1"
+placement = "vedle hlavy"
+
+[LA]
+handshape = "L"
+movement = "švihnutí prsty nahoru"
+
+[LAPE]
+handshape = "FlatB"
+movement = "vedle hlavy"
+
+[LASO]
+handshape = "F"
+placement = "na protilehlé ruce"
+
+[LAWA]
+handshape = "OpenA"
+placement = "vedle hlavy"
+
+[LEKO]
+handshape = "BentB"
+orientation = "dlaně směřující na stranu"
+
+[LEN-INSA]
+handshape = "BentB"
+
+[LEN-INSA-2]
+handshape = "BentB"
+
+[LEN-INSA-TAWA]
+handshape = "BentB"
+
+[LEN-POKA]
+handshape = "BentB"
+
+[LEN-POKA-TAWA]
+handshape = "BentB"
+
+[LEN-POKA-TAWA-2]
+handshape = "BentB"
+movement = "pohyb dolů"
+placement = "na rameni"
+
+[LETE]
+handshape = "F"
+placement = "na protilehlé ruce"
+
+[LILI-PIPI]
+handshape = "F"
+orientation = "dlaně směřující od sebe"
+
+[LILI-SUPA]
+handshape = "FlatB"
+orientation = "pohyb dolů"
+
+[LILI-SUPA-2]
+handshape = "FlatB"
+orientation = "pohyb dolů"
+
+[LILI-TU]
+handshape = "2"
+orientation = "pohyb dolů"
+
+[LILI-TU-2]
+handshape = "2"
+orientation = "pohyb dolů"
+
+[LINJA-1]
+handshape = "F"
+movement = "pohyby do strany"
+
+[LINJA-2]
+handshape = "F"
+movement = "pohyby do strany"
+
+[LIPU]
+handshape = "FlatB"
+placement = "na protilehlé ruce"
+
+[LOJE]
+handshape = "F"
+orientation = "dlaň směřující do strany"
+placement = "na ústech"
+
+[LON-IJO]
+handshape = "1"
+movement = "švihnutí prsty dolů"
+
+[LON-LA]
+handshape = "L"
+movement = "švihnutí prsty dolů"
+
+[LUKA]
+handshape = "5"
+orientation = "dlaně směřující od sebe"
+
+[LUKIN-E]
+handshape = "V"
+orientation = """
+prsty směřující od sebe,
+prsty směřující k sobě,
+prsty směřující do strany"""
+
+[LUKIN-ISIPIN]
+handshape = "1"
+placement = "na oku"
+
+[LUKIN-OKO]
+handshape = "V"
+placement = "na oku"
+
+[LUKIN-SIKE]
+handshape = "V"
+movement = "verticle circle movement"
+
+[LUPA]
+handshape = "O"
+orientation = "dlaň směřující do strany"
+
+[MA]
+handshape = "FlatB"
+movement = "vodorovný krouživý pohyb"
+
+[MAMA-INSA]
+handshape = "V"
+placement = "na hrudi/břiše"
+
+[MAMA-JO-KILI]
+handshape = "V, BentB"
+movement = "třes/kroucení ruky"
+placement = "na protilehlé ruce"
+
+[MANI-1]
+handshape = "1"
+placement = "vedle hlavy"
+
+[MANI-2]
+handshape = "1"
+placement = "vedle hlavy"
+
+[MELI]
+handshape = "L"
+placement = "na ústech/bradě"
+
+[MESO]
+handshape = "5"
+orientation = "dlaň směřující dolů"
+
+[MI]
+handshape = "1"
+placement = "na hrudi/břiše"
+
+[MIJE]
+handshape = "L"
+placement = "na oku"
+
+[MISIKEKE-1]
+handshape = "OpenA"
+movement = "vodorovný krouživý pohyb"
+
+[MISIKEKE-2]
+handshape = "OpenA"
+movement = "vodorovný krouživý pohyb"
+
+[MOKU]
+handshape = "O"
+placement = "na ústech/bradě"
+
+[MOLI]
+handshape = "FlatB"
+movement = "pohyby do strany"
+orientation = "dlaň směřující dolů"
+placement = "na krku"
+
+[MONSI]
+handshape = "FlatB"
+orientation = "dlaň směřující k sobě"
+
+[MONSUTA-1]
+handshape = "5"
+movement = "pohyb k sobě"
+orientation = "dlaň směřující dolů"
+
+[MONSUTA-2]
+handshape = "5"
+movement = "pohyb k sobě"
+orientation = "dlaň směřující dolů"
+
+[MU-UTA]
+handshape = "BentB"
+placement = "na ústech/bradě"
+
+[MUN]
+handshape = "O"
+placement = "vedle hlavy"
+
+[MUSI]
+handshape = "5"
+orientation = "dlaň směřující do strany"
+
+[MUTE]
+handshape = "5"
+movement = "pohyby do strany"
+
+[NANPA]
+handshape = "5"
+placement = "na oku"
+
+[NASA]
+handshape = "1"
+movement = "verticle circle movement"
+
+[NASIN]
+handshape = "FlatB"
+movement = "pohyb od sebe"
+
+[NENA]
+handshape = "BentB"
+orientation = "dlaň směřující dolů"
+
+[NI]
+handshape = "1"
+orientation = "prst směřující dolů"
+
+[NIMI]
+handshape = "FlatB"
+placement = "na oku"
+
+[NOKA]
+handshape = "V"
+orientation = "prsty směřující dolů"
+
+[O]
+handshape = "FlatB"
+movement = "švihnutí prsty dolů"
+
+[OLIN]
+handshape = "5"
+placement = "na hrudi/břiše"
+
+[ONA]
+handshape = "1"
+orientation = "prst směřující do strany"
+
+[OPEN-1]
+handshape = "FlatB"
+movement = "palm flip up"
+
+[OPEN-2]
+handshape = "FlatB"
+movement = "palm flip up"
+
+[PAKALA]
+handshape = "5"
+movement = "přetočení dlaně dolů"
+
+[PALI-KON]
+handshape = "OpenA"
+movement = "třes/kroucení ruky"
+
+[PALI-LUKA]
+handshape = "OpenA"
+movement = "třes/kroucení ruky"
+placement = "na protilehlé ruce"
+
+[PALI-NENA]
+handshape = "OpenA"
+movement = "třes/kroucení ruky"
+placement = "na rameni"
+
+[PALISA-1]
+handshape = "O"
+movement = "pohyby do strany"
+
+[PALISA-2]
+handshape = "O"
+movement = "pohyby do strany"
+
+[PAN]
+handshape = "5"
+placement = "na ústech/bradě"
+
+[PANA-LANPAN]
+handshape = "BentB"
+movement = """
+pohyb od sebe,
+pohyb k sobě,
+pohyb do strany"""
+
+[PI]
+handshape = "F"
+movement = "švihnutí prsty nahoru"
+
+[PILIN]
+handshape = "F"
+placement = "na hrudi/břiše"
+
+[PIMEJA]
+handshape = "F"
+placement = "na rameni"
+
+[PINI-1]
+handshape = "FlatB"
+movement = "přetočení dlaně dolů"
+
+[PINI-2]
+handshape = "FlatB"
+movement = "přetočení dlaně dolů"
+
+[PIPI]
+handshape = "F"
+movement = "třes/kroucení ruky"
+
+[POKA]
+handshape = "L"
+movement = "prsty směřující do strany"
+
+[POKI]
+handshape = "O"
+movement = "dlaň směřující do strany"
+
+[PONA]
+handshape = "OpenA"
+movement = "dlaň směřující k sobě"
+
+[SAMA-KIWEN]
+handshape = "OpenA"
+movement = "přetočení dlaně dolů"
+
+[SAMA-KIWEN-2]
+handshape = "OpenA"
+movement = "přetočení dlaně dolů"
+
+[SAMA-WAN]
+handshape = "1"
+movement = "přetočení dlaně dolů"
+
+[SAMA-WAN-2]
+handshape = "1"
+movement = "přetočení dlaně dolů"
+
+[SELI-1]
+handshape = "5"
+placement = "na rameni"
+
+[SELI-2]
+handshape = "5"
+placement = "na rameni"
+
+[SELO]
+handshape = "O"
+movement = "na protilehlé ruce"
+
+[SEME-SUPA-1]
+handshape = "FlatB"
+orientation = "dlaň směřující nahoru"
+
+[SEME-SUPA-2]
+handshape = "FlatB"
+orientation = "dlaň směřující nahoru"
+
+[SEME-WAN-TAWA]
+handshape = "1"
+movement = "třes/kroucení ruky"
+
+[SEWI-LON]
+handshape = "L"
+orientation = "prst směřující nahoru"
+
+[SEWI-TAWA]
+handshape = "BentB"
+movement = "pohyb dolů"
+
+[SIJELO-AWEN]
+handshape = "FlatB"
+placement = "na hrudi/břiše"
+
+[SIJELO-AWEN-2]
+handshape = "FlatB"
+placement = "na hrudi/břiše"
+
+[SIJELO-TAWA]
+handshape = "FlatB"
+movement = "pohyb dolů"
+placement = "na hrudi/břiše"
+
+[SIKE]
+handshape = "O"
+movement = "verticle circle movement"
+
+[SIN-JO-MONSI]
+handshape = "FlatB"
+movement = "pohyb nahoru"
+orientation = "dlaň směřující k sobě"
+placement = "na protilehlé ruce"
+
+[SIN-JO-SINPIN]
+handshape = "FlatB"
+movement = "pohyb nahoru"
+orientation = "dlaně směřující od sebe"
+placement = "na protilehlé ruce"
+
+[SIN-SUPA-MONSI]
+handshape = "FlatB"
+movement = "pohyb nahoru"
+orientation = "dlaň směřující k sobě"
+placement = "na protilehlé ruce"
+
+[SIN-SUPA-SINPIN]
+handshape = "FlatB"
+movement = "pohyb nahoru"
+orientation = "dlaně směřující od sebe"
+placement = "na protilehlé ruce"
+
+[SINA]
+handshape = "1"
+orientation = "prst směřující od sebe"
+
+[SINPIN]
+handshape = "FlatB"
+orientation = "dlaně směřující od sebe"
+
+[SITELEN]
+handshape = "F"
+movement = "vodorovný kruh"
+
+[SOKO]
+handshape = "1"
+orientation = "prst směřující nahoru"
+placement = "pod druhou rukou"
+
+[SONA-ISIPIN]
+handshape = "1"
+orientation = "prst směřující nahoru"
+placement = "vedle hlavy"
+
+[SONA-JO]
+handshape = "BentB"
+placement = "vedle hlavy"
+
+[SOWELI]
+handshape = "V"
+orientation = "prsty směřující nahoru"
+
+[SULI-SUPA]
+handshape = "FlatB"
+movement = "pohyb nahoru"
+
+[SULI-SUPA-2]
+handshape = "FlatB"
+movement = "pohyb nahoru"
+
+[SULI-TU]
+handshape = "V"
+movement = "pohyb nahoru"
+
+[SULI-TU-2]
+handshape = "V"
+movement = "pohyb nahoru"
+
+[SUNO]
+handshape = "5"
+placement = "vedle hlavy"
+
+[SUPA]
+handshape = "FlatB"
+movement = "pohyby do strany"
+orientation = "dlaň směřující dolů"
+
+[SUWI]
+handshape = "V"
+placement = "na ústech/bradě"
+
+[TAN]
+handshape = "5"
+movement = "přetočení dlaně dolů"
+
+[TASO]
+handshape = "1"
+movement = "švihnutí prsty nahoru"
+
+[TAWA-KAMA]
+handshape = "L"
+movement = """
+pohyb od sebe,
+pohyb k sobě,
+pohyb do strany"""
+
+[TELO]
+handshape = "5"
+movement = "pohyb od sebe"
+
+[TENPO-LUKA-MONSI]
+handshape = "V"
+placement = "na protilehlé ruce"
+
+[TENPO-LUKA-SINPIN]
+handshape = "V"
+placement = "na protilehlé ruce"
+
+[TENPO-PALISA-LAWA]
+handshape = "V"
+placement = "na krku"
+
+[TOKI-1]
+handshape = "FlatB"
+movement = "verticle circle movement"
+
+[TOKI-2]
+handshape = "FlatB"
+movement = "verticle circle movement"
+
+[TOMO]
+handshape = "BentB"
+orientation = "dlaň směřující do strany"
+
+[TONSI]
+handshape = "L"
+placement = "vedle hlavy"
+
+[TU]
+handshape = "V"
+orientation = "dlaň směřující k sobě"
+
+[UNPA]
+handshape = "V"
+movement = "švihnutí prsty dolů"
+orientation = "prst směřující nahoru"
+
+[UTA]
+handshape = "1"
+placement = "na ústech/bradě"
+
+[UTALA]
+handshape = "OpenA"
+movement = """
+pohyb od sebe,
+pohyb k sobě,
+pohyb do strany"""
+
+[WALO]
+handshape = "F"
+placement = "na oku"
+
+[WAN]
+handshape = "1"
+orientation = "dlaň směřující k sobě"
+
+[WASO-1]
+handshape = "5"
+movement = "švihnutí prsty dolů"
+
+[WASO-2]
+handshape = "5"
+movement = "švihnutí prsty dolů"
+
+[WAWA]
+handshape = "OpenA"
+movement = "třes/kroucení ruky"
+placement = "na hrudi/břiše"
+
+[WEKA]
+handshape = "FlatB"
+movement = "švihnutí prsty nahoru"
+
+[WILE-LUKA-OPEN]
+handshape = "5"
+movement = "pohyb k sobě"
+
+[WILE-LUPA]
+handshape = "O"
+placement = "na hrudi/břiše"
+
+[WILE-OPEN-2]
+handshape = "5"
+movement = "pohyb k sobě"

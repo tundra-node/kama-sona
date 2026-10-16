@@ -1,0 +1,68 @@
+#:schema ../../api/generated/v2/word.json
+id = "nasa"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = []
+source_language = "Tok Pisin"
+usage_category = "core"
+word = "nasa"
+deprecated = false
+glyph_ids = ["nasa-1"]
+primary_glyph_id = "nasa-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/nasa.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/nasa.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/nasa.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/nasa.mp3"
+
+[ku_data]
+confuse = 27
+drunk = 64
+nonsense = 27
+odd = 83
+psychoactive = 31
+ridiculous = 36
+silly = 58
+strange = 88
+suspicious = 25
+unusual = 88
+weird = 100
+wild = 50
+
+[pu_verbatim]
+de = "ADJEKTIV ungewöhnlich, seltsam, merkwürdig, sonderbar; albern, närrisch; betrunken, berauscht"
+en = "ADJECTIVE unusual, strange; foolish, crazy; drunk, intoxicated"
+eo = "ADJEKTIVO nekutima, stranga; bufona, malserioza, stulteta; ebria"
+fr = "ADJECTIF étrange, insolite ; fou, bête, idiot ; ivre"
+
+[representations]
+ligatures = ["nasa"]
+ucsur = "U+F193E"
+sitelen_emosi = "🌀"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nasa.jpg"
+sitelen_jelo = ["🌀"]
+
+[usage]
+2022-08 = 99
+2023-09 = 99
+2024-09 = 100
+2025-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/nasa"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#nasa"
+
+[translations]
+commentary = ""
+definition = "strange, unusual, silly, abnormal, unexpected; drunk, intoxicated"
+etymology = "nasau: Tok Pisin, dunderhead"

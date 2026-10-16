@@ -1,0 +1,25 @@
+#:schema ../../../api/generated/v2/sign.json
+definition = "monsi"
+id = "MONSI"
+is_two_handed = false
+new_gloss = "MONSI"
+old_gloss = "MONSI"
+old_id = "MONSI"
+
+[[etymology]]
+language = "LPSL"
+sign = "SINPIN"
+
+[signwriting]
+fsw = "AS15a00M506x514S15a00494x487"
+swu = "𝠀񂇁𝠃𝤌𝤔񂇁𝤀𝣹"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/monsi.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/monsi.mp4"
+
+[translations]
+icons = "opposite of SINPIN"
+[translations.parameters]
+handshape = "FlatB"
+orientation = "palm facing in"

@@ -1,0 +1,61 @@
+#:schema ../../api/generated/v2/word.json
+id = "monsuta"
+author_verbatim = ""
+author_source = ""
+book = "ku suli"
+coined_era = "pre-pu"
+creation_date = "2009-10-01"
+author = ["jan Sonja"]
+see_also = ["pilin", "ike", "nasa"]
+source_language = "Japanese"
+usage_category = "common"
+word = "monsuta"
+deprecated = false
+glyph_ids = ["monsuta-1"]
+primary_glyph_id = "monsuta-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/monsuta.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/monsuta.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/monsuta.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/monsuta.mp3"
+
+[ku_data]
+afraid = 27
+beast = 29
+demon = 25
+disturbing = 30
+fear = 59
+horror = 42
+monster = 58
+scare = 38
+scary = 60
+terror = 30
+
+[representations]
+ligatures = ["monsuta"]
+ucsur = "U+F197D"
+sitelen_emosi = "👹"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/monsuta.jpg"
+sitelen_jelo = ["👻"]
+
+[usage]
+2020-04 = 74
+2021-10 = 88
+2022-08 = 85
+2023-09 = 83
+2024-09 = 84
+2025-09 = 85
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/monsuta"
+
+[translations]
+commentary = ""
+definition = "fear, nervousness, dread; scary, frightening; scary thing e.g. predator, threat, danger"
+etymology = "モンスター (monsutā): Japanese, monster; monster: English, monster"

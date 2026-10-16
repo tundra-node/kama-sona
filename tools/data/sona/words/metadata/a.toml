@@ -1,0 +1,73 @@
+#:schema ../../api/generated/v2/word.json
+id = "a"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = ["kin"]
+source_language = "onomatopoeia"
+usage_category = "core"
+word = "a"
+deprecated = false
+glyph_ids = ["a-1", "a-3"]
+primary_glyph_id = "a-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/a.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/a.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/a.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/a.mp3"
+
+[ku_data]
+ah = 94
+gasp = 28
+gosh = 73
+ha = 83
+hmm = 27
+huh = 44
+mm-hmm = 27
+oh = 93
+ooh = 80
+quite = 29
+really = 27
+sigh = 27
+uh = 73
+uh-huh = 39
+um = 47
+whoa = 69
+wow = 61
+
+[pu_verbatim]
+de = "PARTIKEL (Betonung, Emotion oder Bestätigung)"
+en = "PARTICLE (emphasis, emotion or confirmation)"
+eo = "PARTIKULO (emfazo, emocio aŭ konfirmo)"
+fr = "PARTICULE (accent, émotion ou confirmation)"
+
+[representations]
+ligatures = ["a01", "a03"]
+ucsur = "U+F1900"
+sitelen_emosi = "❗"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/a.jpg"
+sitelen_jelo = ["🅰️"]
+
+[usage]
+2020-04 = 99
+2022-08 = 99
+2023-09 = 99
+2024-09 = 100
+2025-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/a"
+
+[translations]
+commentary = 'In common usage (both before and after pu), "a" and "kin" are separate words, each with their own meaning. In pu, they are considered synonyms.'
+definition = "(interjection) ah, oh, ha, eh, um, oy; (particle) [placed after something for emphasis or emotion]"
+etymology = "onomatopoeia"

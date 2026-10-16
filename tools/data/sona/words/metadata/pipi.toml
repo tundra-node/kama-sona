@@ -1,0 +1,59 @@
+#:schema ../../api/generated/v2/word.json
+id = "pipi"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = []
+source_language = "Acadian French"
+usage_category = "core"
+word = "pipi"
+deprecated = false
+glyph_ids = ["pipi-1"]
+primary_glyph_id = "pipi-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/pipi.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/pipi.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pipi.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/pipi.mp3"
+
+[ku_data]
+bug = 100
+insect = 92
+spider = 48
+
+[pu_verbatim]
+de = "NOMEN Käfer, Insekt, Ameise, Spinne"
+en = "NOUN bug, insect, ant, spider"
+eo = "SUBSTANTIVO insekto, formiko, araneo, eta senvertebrulo"
+fr = "NOM insecte, araignée, fourmi"
+
+[representations]
+ligatures = ["pipi"]
+ucsur = "U+F1951"
+sitelen_emosi = "🐞"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pipi.jpg"
+sitelen_jelo = ["🐛"]
+
+[usage]
+2022-08 = 98
+2023-09 = 99
+2024-09 = 99
+2025-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/pipi"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#pipi"
+
+[translations]
+commentary = ""
+definition = "insect, bug, spider, tiny crawling creature"
+etymology = "bibitte: Acadian French, bug"

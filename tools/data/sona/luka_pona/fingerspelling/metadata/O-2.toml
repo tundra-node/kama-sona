@@ -1,0 +1,15 @@
+#:schema ../../../api/generated/v2/fingerspelling.json
+id = "O-2"
+is_two_handed = true
+
+[[etymology]]
+language = "BSL"
+sign = "O"
+
+[signwriting]
+fsw = "M525x523S10011504x493S1a718475x478S20500500x479"
+swu = "𝠃𝤟𝤝񀀒𝤊𝣿񃺹𝣭𝣰񆇡𝤆𝣱"
+
+[translations.parameters]
+handshape = "1 + 5"
+placement = "touch the ring finger"

@@ -1,0 +1,152 @@
+name: Validate TOML Files
+
+on:
+  push:
+    branches-ignore: ["l10n_*"]
+    paths:
+      - "**.toml"
+      - "api/src/lib/v2/**"
+
+  pull_request:
+    branches-ignore: ["l10n_*"]
+    paths:
+      - "**.toml"
+      - "api/src/lib/v2/**"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  skip_check:
+    continue-on-error: true
+    runs-on: ubuntu-latest
+    name: Check for and skip duplicate workflows
+    outputs:
+      should_skip: ${{ steps.skip_check.outputs.should_skip }}
+    steps:
+      - id: skip_check
+        uses: fkirc/skip-duplicate-actions@v5
+        with:
+          cancel_others: true
+          concurrent_skipping: "outdated_runs"
+
+  upsync:
+    needs: skip_check
+    if: needs.skip_check.outputs.should_skip != 'true'
+    runs-on: ubuntu-latest
+    name: Sync translation data to translation files if not already done by Crowdin
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      - uses: dorny/paths-filter@v4
+        id: changes
+        with:
+          filters: |
+            data:
+              - '**/metadata/**.toml'
+              - '**/source/**.toml'
+              - '**/translations/**.toml'
+
+      - name: Setup Python
+        if: contains(steps.changes.outputs.changes, 'data')
+        uses: actions/setup-python@v7
+        with:
+          python-version: 3.14.8
+
+      - name: Install dependencies
+        if: contains(steps.changes.outputs.changes, 'data')
+        run: pip install tomlkit
+
+      - name: Check cross-data references
+        # DOES NOT type check; that is on taplo and ajv
+        if: contains(steps.changes.outputs.changes, 'data')
+        run: python .github/workflows/upsync_translations.py
+
+      - name: Commit packaged files
+        uses: EndBug/add-and-commit@v11
+        if: contains(steps.changes.outputs.changes, 'data') && !github.event.pull_request.head.repo.fork
+        with:
+          message: Synced translation files for ${{ github.sha }}
+          pull: --commit
+
+  validate:
+    needs:
+      - skip_check
+      - upsync
+    if: needs.skip_check.outputs.should_skip != 'true'
+    runs-on: ubuntu-latest
+    name: Generate schemas, validate and package TOMLs
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      - uses: dorny/paths-filter@v4
+        id: changes
+        with:
+          filters: |
+            schemas:
+              - 'api/src/lib/v2/**'
+            data:
+              - '**.toml'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          version: 12
+          run_install: |
+            - args: [--frozen-lockfile]
+              cwd: ./api
+
+      - name: Generate JSON Schemas
+        if: contains(steps.changes.outputs.changes, 'schemas')
+        run: pnpm run generate
+        working-directory: ./api
+
+      - name: Commit schemas
+        if: contains(steps.changes.outputs.changes, 'schemas') && !github.event.pull_request.head.repo.fork
+        uses: EndBug/add-and-commit@v11
+        with:
+          message: "Generated schemas for ${{ github.event.pull_request.head.sha || github.event.head_commit.id || github.sha }}"
+
+      - name: Validate toml data against their json schemas (typing)
+        if: contains(steps.changes.outputs.changes, 'data')
+        run: pnpm dlx @taplo/cli check
+
+      - name: Setup Python
+        if: contains(steps.changes.outputs.changes, 'data')
+        uses: actions/setup-python@v7
+        with:
+          python-version: 3.14.8
+
+      - name: Install dependencies
+        if: contains(steps.changes.outputs.changes, 'data')
+        run: pip install tomlkit langcodes language_data && npm i -g ajv-cli ajv-formats
+
+      - name: Validate toml data relationships to other toml data (refs)
+        # DOES NOT type check; that is on taplo and ajv
+        if: contains(steps.changes.outputs.changes, 'data')
+        run: python .github/workflows/validate_refs.py
+
+      - name: Generate raw data file
+        if: contains(steps.changes.outputs.changes, 'data')
+        run: python .github/workflows/package_data.py
+
+      - name: Validate generated file
+        if: contains(steps.changes.outputs.changes, 'data')
+        run: .github/workflows/validate_generated_json.sh
+
+      - name: Commit packaged files
+        uses: EndBug/add-and-commit@v11
+        if: contains(steps.changes.outputs.changes, 'data') && !github.event.pull_request.head.repo.fork
+        with:
+          message: Generated raw JSON files for ${{ github.sha }}
+          pull: --commit

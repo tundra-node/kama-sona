@@ -1,0 +1,22 @@
+#:schema ../../api/generated/v2/font.json
+id = "linja pimeja pona"
+author = ["jan Ke Tami"]
+features = [
+  "ASCII transcription",
+  "auto-cartouching",
+  "UCSUR compatibility",
+  "cartouches",
+]
+filename = "linja-pimeja-pona.otf"
+last_updated = "2024-09"
+license = "CC0"
+ligatures = true
+name = "linja pimeja pona"
+style = "handwritten"
+ucsur = true
+version = "1.0"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://github.com/RetSamys/linja-pimeja-pona/raw/refs/heads/main/linjapimejapona1.0.otf"
+repo = "https://github.com/RetSamys/linja-pimeja-pona"

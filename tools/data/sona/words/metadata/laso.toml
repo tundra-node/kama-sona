@@ -1,0 +1,59 @@
+#:schema ../../api/generated/v2/word.json
+id = "laso"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = []
+source_language = "Welsh"
+usage_category = "core"
+word = "laso"
+deprecated = false
+glyph_ids = ["laso-1"]
+primary_glyph_id = "laso-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/laso.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/laso.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/laso.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/laso.mp3"
+
+[ku_data]
+blue = 81
+green = 47
+teal = 71
+
+[pu_verbatim]
+de = "ADJEKTIV blau, grün"
+en = "ADJECTIVE blue, green"
+eo = "ADJEKTIVO blua, verda"
+fr = "ADJECTIF bleu, vert"
+
+[representations]
+ligatures = ["laso"]
+ucsur = "U+F1923"
+sitelen_emosi = "🔵"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/laso.jpg"
+sitelen_jelo = ["☘️"]
+
+[usage]
+2022-08 = 98
+2023-09 = 99
+2024-09 = 100
+2025-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/laso"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#laso"
+
+[translations]
+commentary = ""
+definition = "turquoise, blue, green, cyan, indigo, lime green"
+etymology = "glas: Welsh, blue, inexperienced; glas: Proto-Brythonic, green, blue"

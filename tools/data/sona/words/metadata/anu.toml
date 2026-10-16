@@ -1,0 +1,62 @@
+#:schema ../../api/generated/v2/word.json
+id = "anu"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = []
+source_language = "Georgian"
+usage_category = "core"
+word = "anu"
+deprecated = false
+glyph_ids = ["anu-1"]
+primary_glyph_id = "anu-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/anu.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/anu.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/anu.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/anu.mp3"
+
+[ku_data]
+choice = 47
+decide = 31
+either = 31
+or = 100
+select = 31
+selection = 36
+whether = 60
+
+[pu_verbatim]
+de = "PARTIKEL oder"
+en = "PARTICLE or"
+eo = "PARTIKULO aŭ"
+fr = "PARTICULE ou"
+
+[representations]
+ligatures = ["anu"]
+ucsur = "U+F1907"
+sitelen_emosi = "☯️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/anu.jpg"
+sitelen_jelo = ["🤷"]
+
+[usage]
+2022-08 = 98
+2023-09 = 99
+2024-09 = 99
+2025-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/anu"
+
+[translations]
+commentary = 'The usage of "anu" as a content word meaning "choose" remains controversial.'
+definition = "(particle) [separates multiple possibilities, replacing another particle], or"
+etymology = "ან (an): Georgian, or"

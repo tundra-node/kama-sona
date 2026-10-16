@@ -1,0 +1,66 @@
+#:schema ../../api/generated/v2/word.json
+id = "suwi"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = ["pona"]
+source_language = "Tok Pisin"
+usage_category = "core"
+word = "suwi"
+deprecated = false
+glyph_ids = ["suwi-1"]
+primary_glyph_id = "suwi-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/suwi.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/suwi.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/suwi.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/suwi.mp3"
+
+[ku_data]
+candy = 65
+cute = 92
+darling = 26
+dessert = 32
+gentle = 33
+soft = 27
+sugar = 58
+sweet = 100
+tender = 31
+treat = 25
+
+[pu_verbatim]
+de = "ADJEKTIV süß, wohlriechend; niedlich, unschuldig, liebenswert"
+en = "ADJECTIVE sweet, fragrant; cute, innocent, adorable"
+eo = "ADJEKTIVO dolĉa, bonodora; ĉarma, senkulpa, aminda"
+fr = "ADJECTIF doux, parfumé, mignon, innocent, adorable"
+
+[representations]
+ligatures = ["suwi"]
+ucsur = "U+F1966"
+sitelen_emosi = "🍭"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/suwi.jpg"
+sitelen_jelo = ["🍬"]
+
+[usage]
+2022-08 = 100
+2023-09 = 100
+2024-09 = 100
+2025-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/suwi"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#suwi"
+
+[translations]
+commentary = ""
+definition = "sweet, fragrant; cute, adorable"
+etymology = "swit: Tok Pisin, sweet; sweet: English, sweet"

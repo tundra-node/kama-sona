@@ -1,0 +1,26 @@
+#:schema ../../../api/generated/v2/sign.json
+definition = "akesi"
+id = "AKESI"
+is_two_handed = false
+new_gloss = "AKESI"
+old_gloss = "AKESI"
+old_id = "AKESI"
+
+[[etymology]]
+language = "BSL"
+sign = "SNAKE"
+
+[signwriting]
+fsw = "AS11920S20500S30004M522x544S30004482x483S11920487x518S20500512x515"
+swu = "𝠀񀦁񆇡񌀅𝠃𝤜𝤲񌀅𝣴𝣵񀦁𝣹𝤘񆇡𝤒𝤕"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/akesi.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/akesi.mp4"
+
+[translations]
+icons = "tongue or fangs of a snake"
+[translations.parameters]
+handshape = "V"
+orientation = "fingers pointing outwards"
+placement = "on mouth/chin"

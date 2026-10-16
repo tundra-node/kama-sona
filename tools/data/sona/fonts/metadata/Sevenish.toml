@@ -1,0 +1,22 @@
+#:schema ../../api/generated/v2/font.json
+id = "Sevenish"
+author = ["Nico \"SauceDLX\""]
+features = [
+  "codepoints only",
+  "UCSUR-compliant",
+  "all UCSUR 2022 words",
+]
+filename = "sevenish.otf"
+last_updated = "2025-02"
+license = "MIT"
+ligatures = false
+name = "Sevenish"
+style = "pixelated"
+ucsur = true
+version = "202502"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://github.com/SauceDLX/Sevenish/raw/main/Sevenish.ttf"
+repo = "https://github.com/SauceDLX/Sevenish"
+webpage = "https://saucedlx.neocities.org/sevenish"

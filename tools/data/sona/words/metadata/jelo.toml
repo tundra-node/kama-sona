@@ -1,0 +1,58 @@
+#:schema ../../api/generated/v2/word.json
+id = "jelo"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = []
+source_language = "English"
+usage_category = "core"
+word = "jelo"
+deprecated = false
+glyph_ids = ["jelo-1"]
+primary_glyph_id = "jelo-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/jelo.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/jelo.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jelo.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/jelo.mp3"
+
+[ku_data]
+golden = 25
+yellow = 94
+
+[pu_verbatim]
+de = "ADJEKTIV gelb, gelblich"
+en = "ADJECTIVE yellow, yellowish"
+eo = "ADJEKTIVO flava, flaveca"
+fr = "ADJECTIF jaune"
+
+[representations]
+ligatures = ["jelo"]
+ucsur = "U+F1912"
+sitelen_emosi = "💛"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/jelo.jpg"
+sitelen_jelo = ["🍋"]
+
+[usage]
+2022-08 = 98
+2023-09 = 100
+2024-09 = 100
+2025-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/jelo"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#jelo"
+
+[translations]
+commentary = 'Some extend "jelo" to include lime green, but this usage is uncommon.'
+definition = "yellow, amber, golden, lime yellow, yellowish orange"
+etymology = "yellow: English, yellow"

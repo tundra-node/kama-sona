@@ -1,0 +1,27 @@
+#:schema ../../../api/generated/v2/sign.json
+definition = "sin, namako"
+id = "SIN-SUPA-SINPIN"
+is_two_handed = true
+new_gloss = "SIN-SUPA-SINPIN"
+old_gloss = "SIN/NAMAKO"
+old_id = "SIN/NAMAKO^2"
+
+[[etymology]]
+language = "multiple SLs (including IS)"
+sign = "NEW"
+
+[signwriting]
+fsw = "AS15a00S15a06S22b00M514x530S15a06487x513S15a00494x503S22b00492x470"
+swu = "𝠀񂇁񂇇񇀡𝠃𝤔𝤤񂇇𝣹𝤓񂇁𝤀𝤉񇀡𝣾𝣨"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sin.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/sin.mp4"
+
+[translations]
+icons = "springing up, previously unseen"
+[translations.parameters]
+handshape = "FlatB"
+movement = "movement upward"
+orientation = "palm facing out"
+placement = "placed on opposite hand"

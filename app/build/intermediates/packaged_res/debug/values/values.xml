@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FF22D3EE</color>
+    <color name="accentDim">#FF164E63</color>
+    <color name="bg">#FF0A0E12</color>
+    <color name="surface">#FF141B22</color>
+    <color name="surface2">#FF1D2731</color>
+    <color name="textPrimary">#FFE2E8F0</color>
+    <color name="textSecondary">#FF94A3B8</color>
+    <style name="Theme.KamaSona" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorPrimaryVariant">@color/accentDim</item>
+        <item name="colorOnPrimary">@color/bg</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+        
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="bottomNavigationStyle">@style/Widget.MaterialComponents.BottomNavigationView</item>
+    </style>
+</resources>

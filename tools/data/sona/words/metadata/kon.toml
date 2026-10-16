@@ -1,0 +1,73 @@
+#:schema ../../api/generated/v2/word.json
+id = "kon"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = []
+source_language = "Mandarin"
+usage_category = "core"
+word = "kon"
+deprecated = false
+glyph_ids = ["kon-1"]
+primary_glyph_id = "kon-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kon.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kon.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kon.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/kon.mp3"
+
+[ku_data]
+abstract = 33
+air = 100
+atmosphere = 64
+breath = 57
+breathe = 60
+breathing = 45
+breeze = 33
+definition = 34
+essence = 65
+gas = 83
+intangible = 53
+"invisible entity" = 45
+meaning = 55
+oxygen = 60
+smell = 29
+soul = 100
+spirit = 86
+
+[pu_verbatim]
+de = "NOMEN Luft, Atem; Essenz, Geist; versteckte Realität, ungesehener Akteur"
+en = "NOUN air, breath; essence, spirit, hidden reality, unseen agent"
+eo = "SUBSTANTIVO aero, spiro; esenco, spirito; kaŝita realaĵo, io nevidata"
+fr = "NOM air, souffle ; essence, esprit ; réalité cachée, agent invisible"
+
+[representations]
+ligatures = ["kon"]
+ucsur = "U+F191D"
+sitelen_emosi = "💨"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kon.jpg"
+sitelen_jelo = ["💨"]
+
+[usage]
+2022-08 = 99
+2023-09 = 99
+2024-09 = 99
+2025-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kon"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#kon"
+
+[translations]
+commentary = ""
+definition = "air, breath, wind; essence, spirit, soul, ghost; unseen agent"
+etymology = "空氣 (kōngqì): Mandarin, air, atmosphere, ambience, opinion"

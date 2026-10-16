@@ -1,0 +1,64 @@
+#:schema ../../api/generated/v2/word.json
+id = "poka"
+author_verbatim = ""
+author_source = ""
+book = "pu"
+coined_era = "pre-pu"
+creation_date = ""
+author = ["jan Sonja"]
+see_also = ["lon"]
+source_language = "Serbo-Croatian"
+usage_category = "core"
+word = "poka"
+deprecated = false
+glyph_ids = ["poka-1"]
+primary_glyph_id = "poka-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/poka.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/poka.svg"
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/poka.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/poka.mp3"
+
+[ku_data]
+alongside = 25
+aside = 45
+beside = 57
+closely = 40
+hip = 67
+"left (not right)" = 25
+side = 100
+sidebar = 25
+
+[pu_verbatim]
+de = "NOMEN Hüfte, Seite; nah bei, in der Nähe, Umgebung"
+en = "NOUN hip, side; next to, nearby, vicinity"
+eo = "SUBSTANTIVO kokso, flanko; apud, proksime de, proksimaĵo"
+fr = "NOM hanche, côté ; proximité"
+
+[representations]
+ligatures = ["poka"]
+ucsur = "U+F1952"
+sitelen_emosi = "↔️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/poka.jpg"
+sitelen_jelo = ["👯"]
+
+[usage]
+2022-08 = 98
+2023-09 = 99
+2024-09 = 99
+2025-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/poka"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#poka"
+
+[translations]
+commentary = ""
+definition = "hip, side; area nearby, vicinity, surroundings"
+etymology = "boka (бока): Serbo-Croatian, side, flank (genitive)"

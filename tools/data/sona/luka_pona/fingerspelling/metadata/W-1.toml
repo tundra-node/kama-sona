@@ -1,0 +1,16 @@
+#:schema ../../../api/generated/v2/fingerspelling.json
+id = "W-1"
+is_two_handed = false
+
+[[etymology]]
+language = "LPSL"
+sign = "U"
+
+[signwriting]
+fsw = "M515x536S11520495x506S2e608486x465"
+swu = "𝠃𝤕𝤪񀠁𝤁𝤌񋙉𝣸𝣣"
+
+[translations.parameters]
+handshape = "2"
+movement = "verticle circle movement"
+orientation = "palm outwards"

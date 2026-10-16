@@ -1,0 +1,781 @@
+[AKESI]
+handshape = "V"
+orientation = "fingrarna pekaande utåt"
+placement = "på munnen/hakan"
+
+[ALA]
+handshape = "FlatB"
+placement = "axel"
+
+[ALASA-1]
+handshape = "1"
+movement = "rörelse utåt"
+
+[ALASA-2]
+handshape = "1"
+movement = "rörelse utåt"
+
+[ALE-1]
+handshape = "5"
+movement = "vertikal cirkelrörelse"
+
+[ALE-2]
+handshape = "5"
+movement = "vertikal cirkelrörelse"
+
+[ANPA-LON]
+handshape = "L"
+orientation = "fingrarna pekande nedåt"
+
+[ANPA-TAWA]
+handshape = "BentB"
+movement = "rörelse nedåt"
+
+[ANTE-KIWEN]
+handshape = "OpenA"
+movement = "handflatan snärtar uppåt"
+
+[ANTE-KIWEN-2]
+handshape = "OpenA"
+movement = "handflatan snärtar uppåt"
+
+[ANTE-WAN]
+handshape = "1"
+movement = "handflatan snärtar uppåt"
+
+[ANTE-WAN-2]
+handshape = "1"
+movement = "handflatan snärtar uppåt"
+
+[ANU]
+handshape = "L"
+movement = "handflatan snärtar uppåt"
+
+[AWEN-AWEN]
+handshape = "BentB"
+orientation = "handflatan innåt"
+placement = "lagd på axeln"
+
+[AWEN-TAWA]
+handshape = "BentB"
+orientation = "handflatan innåt"
+movement = "rörelse inåt"
+
+[EN-KIN-KAN]
+handshape = "L"
+movement = "nedåtvänd handflata"
+
+[ESUN-1]
+handshape = "BentB"
+movement = "horisontell cirkelrörelse"
+orientation = "handflatan vänd uppåt"
+
+[ESUN-2]
+handshape = "BentB"
+movement = "horisontell cirkelrörelse"
+orientation = "handflatan vänd uppåt"
+
+[IJO-LUKA]
+handshape = "1"
+placement = "lagd på motsatt hand"
+
+[IJO-NENA]
+handshape = "1"
+placement = "lagd på axeln"
+
+[IKE]
+handshape = "OpenA"
+orientation = "palm outwards"
+
+[ILO]
+handshape = "L"
+placement = "lagd på motsatt hand"
+
+[INSA]
+handshape = "L"
+placement = "lagd på bröstet/magen"
+
+[JAKI]
+handshape = "OpenA"
+orientation = "palm outwards"
+placement = "lagd över ögonen"
+
+[JAN-LA]
+handshape = "L"
+movement = "rörelse nedåt"
+orientation = "handflatan vänd nedåt"
+
+[JAN-WAN]
+handshape = "V"
+movement = "rörelse nedåt"
+orientation = "fingrarna pekande uppåt"
+
+[JELO]
+handshape = "F"
+movement = "lagd bredvid handen"
+
+[JO]
+handshape = "BentB"
+orientation = "handflatan vänd uppåt"
+
+[KALA]
+handshape = "FlatB"
+movement = "skakande hand"
+orientation = "handflatan vänd åt sidan"
+
+[KALAMA-KUTE]
+handshape = "5"
+orientation = "handflatan vänd nedåt"
+placement = "lagd bredvid handen"
+
+[KALAMA-MU]
+handshape = "5"
+orientation = "handflatan vänd nedåt"
+placement = "lagd över munnen"
+
+[KASI]
+handshape = "5"
+orientation = "handflatan vänd inåt"
+
+[KEN-1]
+handshape = "OpenA"
+movement = "rörelse nedåt"
+
+[KEN-2]
+handshape = "OpenA"
+movement = "rörelse nedåt"
+
+[KEPEKEN]
+handshape = "OpenA"
+movement = "vertikal cirkelrörelse"
+
+[KIJETESANTAKALU-1]
+handshape = "V"
+placement = "lagd över ögonen"
+
+[KIJETESANTAKALU-2]
+handshape = "V"
+placement = "lagd över ögonen"
+
+[KIKI]
+handshape = "F"
+movement = "rörelse uppåt"
+orientation = "handflatan vänd uppåt"
+
+[KILI]
+handshape = "OpenA"
+placement = "lagd på munnen/hakan"
+
+[KIPISI]
+handshape = "V"
+movement = "rörelse nedåt"
+
+[KIWEN]
+handshape = "OpenA"
+orientation = "handflatan vänd nedåt"
+
+[KO-1]
+handshape = "BentB"
+movement = "vertikal cirkelrörelse"
+
+[KO-2]
+handshape = "BentB"
+movement = "vertikal cirkelrörelse"
+
+[KON]
+handshape = "5"
+movement = "skakande hand"
+
+[KULE]
+handshape = "F"
+movement = "vertikal cirkelrörelse"
+
+[KULUPU-JAN]
+handshape = "1"
+movement = "horisontell cirkelrörelse"
+
+[KULUPU-MUTE]
+handshape = "5"
+movement = "horisontell cirkelrörelse"
+
+[KULUPU-MUTE-2]
+handshape = "5"
+movement = "horisontell cirkelrörelse"
+
+[KUTE]
+handshape = "1"
+placement = "lagd bredvid handen"
+
+[LA]
+handshape = "L"
+movement = "fingrarna snärtar uppåt"
+
+[LAPE]
+handshape = "FlatB"
+movement = "lagd bredvid handen"
+
+[LASO]
+handshape = "F"
+placement = "lagd på motsatt hand"
+
+[LAWA]
+handshape = "OpenA"
+placement = "lagd bredvid handen"
+
+[LEKO]
+handshape = "BentB"
+orientation = "handflatorna vända mot sidan"
+
+[LEN-INSA]
+handshape = "BentB"
+
+[LEN-INSA-2]
+handshape = "BentB"
+
+[LEN-INSA-TAWA]
+handshape = "BentB"
+
+[LEN-POKA]
+handshape = "BentB"
+
+[LEN-POKA-TAWA]
+handshape = "BentB"
+
+[LEN-POKA-TAWA-2]
+handshape = "BentB"
+movement = "rörelse nedåt"
+placement = "lagd på axeln"
+
+[LETE]
+handshape = "F"
+placement = "lagd på motsatt hand"
+
+[LILI-PIPI]
+handshape = "F"
+orientation = "handflatan vänd utåt"
+
+[LILI-SUPA]
+handshape = "FlatB"
+orientation = "rörelse nedåt"
+
+[LILI-SUPA-2]
+handshape = "FlatB"
+orientation = "rörelse nedåt"
+
+[LILI-TU]
+handshape = "2"
+orientation = "rörelse nedåt"
+
+[LILI-TU-2]
+handshape = "2"
+orientation = "rörelse nedåt"
+
+[LINJA-1]
+handshape = "F"
+movement = "rörelse i sidled"
+
+[LINJA-2]
+handshape = "F"
+movement = "rörelse i sidled"
+
+[LIPU]
+handshape = "FlatB"
+placement = "lagd på motsatt hand"
+
+[LOJE]
+handshape = "F"
+orientation = "handflatan vänd åt sidan"
+placement = "lagd över munnen"
+
+[LON-IJO]
+handshape = "1"
+movement = "fingrarna snärtar nedåt"
+
+[LON-LA]
+handshape = "L"
+movement = "fingrarna snärtar nedåt"
+
+[LUKA]
+handshape = "5"
+orientation = "handflatan vänd utåt"
+
+[LUKIN-E]
+handshape = "V"
+orientation = """
+fingrarna pekar utåt, 
+fingrarna pekar inåt, 
+fingrarna pekar åt sidan"""
+
+[LUKIN-ISIPIN]
+handshape = "1"
+placement = "lagd över ögat"
+
+[LUKIN-OKO]
+handshape = "V"
+placement = "lagd över ögat"
+
+[LUKIN-SIKE]
+handshape = "V"
+movement = "vertikal cirkelrörelse"
+
+[LUPA]
+handshape = "O"
+orientation = "handflatan vänd åt sidan"
+
+[MA]
+handshape = "FlatB"
+movement = "horisontell cirkelrörelse"
+
+[MAMA-INSA]
+handshape = "V"
+placement = "lagd på bröstet/magen"
+
+[MAMA-JO-KILI]
+handshape = "V, BentB"
+movement = "skakande hand"
+placement = "lagd på motsatt hand"
+
+[MANI-1]
+handshape = "1"
+placement = "lagd bredvid handen"
+
+[MANI-2]
+handshape = "1"
+placement = "lagd bredvid handen"
+
+[MELI]
+handshape = "L"
+placement = "lagd på munnen/hakan"
+
+[MESO]
+handshape = "5"
+orientation = "handflatan vänd nedåt"
+
+[MI]
+handshape = "1"
+placement = "lagd på bröstet/magen"
+
+[MIJE]
+handshape = "L"
+placement = "lagd över ögat"
+
+[MISIKEKE-1]
+handshape = "OpenA"
+movement = "horisontell cirkelrörelse"
+
+[MISIKEKE-2]
+handshape = "OpenA"
+movement = "horisontell cirkelrörelse"
+
+[MOKU]
+handshape = "O"
+placement = "lagd på munnen/hakan"
+
+[MOLI]
+handshape = "FlatB"
+movement = "rörelse i sidled"
+orientation = "handflatan vänd nedåt"
+placement = "lagd på halsen"
+
+[MONSI]
+handshape = "FlatB"
+orientation = "handflatan vänd inåt"
+
+[MONSUTA-1]
+handshape = "5"
+movement = "rörelse inåt"
+orientation = "handflatan vänd nedåt"
+
+[MONSUTA-2]
+handshape = "5"
+movement = "rörelse inåt"
+orientation = "handflatan vänd nedåt"
+
+[MU-UTA]
+handshape = "BentB"
+placement = "lagd på munnen/hakan"
+
+[MUN]
+handshape = "O"
+placement = "lagd bredvid handen"
+
+[MUSI]
+handshape = "5"
+orientation = "handflatan vänd åt sidan"
+
+[MUTE]
+handshape = "5"
+movement = "rörelse i sidled"
+
+[NANPA]
+handshape = "5"
+placement = "lagd över ögat"
+
+[NASA]
+handshape = "1"
+movement = "vertikal cirkelrörelse"
+
+[NASIN]
+handshape = "FlatB"
+movement = "rörelse utåt"
+
+[NENA]
+handshape = "BentB"
+orientation = "handflatan vänd nedåt"
+
+[NI]
+handshape = "1"
+orientation = "fingrarna pekande nedåt"
+
+[NIMI]
+handshape = "FlatB"
+placement = "lagd över ögat"
+
+[NOKA]
+handshape = "V"
+orientation = "fingrarna pekande nedåt"
+
+[O]
+handshape = "FlatB"
+movement = "fingrarna snärtar nedåt"
+
+[OLIN]
+handshape = "5"
+placement = "lagd på bröstet/magen"
+
+[ONA]
+handshape = "1"
+orientation = "finger pekande åt sidan"
+
+[OPEN-1]
+handshape = "FlatB"
+movement = "handflatan snärtar uppåt"
+
+[OPEN-2]
+handshape = "FlatB"
+movement = "handflatan snärtar uppåt"
+
+[PAKALA]
+handshape = "5"
+movement = "nedåtvänd handflata"
+
+[PALI-KON]
+handshape = "OpenA"
+movement = "skakande hand"
+
+[PALI-LUKA]
+handshape = "OpenA"
+movement = "skakande hand"
+placement = "lagd på motsatt hand"
+
+[PALI-NENA]
+handshape = "OpenA"
+movement = "skakande hand"
+placement = "lagd på axeln"
+
+[PALISA-1]
+handshape = "O"
+movement = "rörelse i sidled"
+
+[PALISA-2]
+handshape = "O"
+movement = "rörelse i sidled"
+
+[PAN]
+handshape = "5"
+placement = "lagd på munnen/hakan"
+
+[PANA-LANPAN]
+handshape = "BentB"
+movement = """
+rörelse utåt,
+rörelse inåt,
+rörelse i sidled"""
+
+[PI]
+handshape = "F"
+movement = "fingrarna snärtar uppåt"
+
+[PILIN]
+handshape = "F"
+placement = "lagd på bröstet/magen"
+
+[PIMEJA]
+handshape = "F"
+placement = "lagd på axeln"
+
+[PINI-1]
+handshape = "FlatB"
+movement = "nedåtvänd handflata"
+
+[PINI-2]
+handshape = "FlatB"
+movement = "nedåtvänd handflata"
+
+[PIPI]
+handshape = "F"
+movement = "skakande hand"
+
+[POKA]
+handshape = "L"
+movement = "fingrarna pekande åt sidan"
+
+[POKI]
+handshape = "O"
+movement = "handflatan vänd åt sidan"
+
+[PONA]
+handshape = "OpenA"
+movement = "handflatan vänd inåt"
+
+[SAMA-KIWEN]
+handshape = "OpenA"
+movement = "nedåtvänd handflata"
+
+[SAMA-KIWEN-2]
+handshape = "OpenA"
+movement = "nedåtvänd handflata"
+
+[SAMA-WAN]
+handshape = "1"
+movement = "nedåtvänd handflata"
+
+[SAMA-WAN-2]
+handshape = "1"
+movement = "nedåtvänd handflata"
+
+[SELI-1]
+handshape = "5"
+placement = "lagd på axeln"
+
+[SELI-2]
+handshape = "5"
+placement = "lagd på axeln"
+
+[SELO]
+handshape = "O"
+movement = "lagd på motsatt hand"
+
+[SEME-SUPA-1]
+handshape = "FlatB"
+orientation = "handflatan vänd uppåt"
+
+[SEME-SUPA-2]
+handshape = "FlatB"
+orientation = "handflatan vänd uppåt"
+
+[SEME-WAN-TAWA]
+handshape = "1"
+movement = "skakande hand"
+
+[SEWI-LON]
+handshape = "L"
+orientation = "finger pekande uppåt"
+
+[SEWI-TAWA]
+handshape = "BentB"
+movement = "rörelse nedåt"
+
+[SIJELO-AWEN]
+handshape = "FlatB"
+placement = "lagd på bröstet/magen"
+
+[SIJELO-AWEN-2]
+handshape = "FlatB"
+placement = "lagd på bröstet/magen"
+
+[SIJELO-TAWA]
+handshape = "FlatB"
+movement = "rörelse nedåt"
+placement = "lagd på bröstet/magen"
+
+[SIKE]
+handshape = "O"
+movement = "vertikal cirkelrörelse"
+
+[SIN-JO-MONSI]
+handshape = "FlatB"
+movement = "rörelse uppåt"
+orientation = "handflatan vänd inåt"
+placement = "lagd på motsatt hand"
+
+[SIN-JO-SINPIN]
+handshape = "FlatB"
+movement = "rörelse uppåt"
+orientation = "handflatan vänd utåt"
+placement = "lagd på motsatt hand"
+
+[SIN-SUPA-MONSI]
+handshape = "FlatB"
+movement = "rörelse uppåt"
+orientation = "handflatan vänd inåt"
+placement = "lagd på motsatt hand"
+
+[SIN-SUPA-SINPIN]
+handshape = "FlatB"
+movement = "rörelse uppåt"
+orientation = "handflatan vänd utåt"
+placement = "lagd på motsatt hand"
+
+[SINA]
+handshape = "1"
+orientation = "finger pekar utåt"
+
+[SINPIN]
+handshape = "FlatB"
+orientation = "handflatan vänd utåt"
+
+[SITELEN]
+handshape = "F"
+movement = "horisontell cirkel"
+
+[SOKO]
+handshape = "1"
+orientation = "finger pekande uppåt"
+placement = "under andra handen"
+
+[SONA-ISIPIN]
+handshape = "1"
+orientation = "finger pekande uppåt"
+placement = "lagd bredvid handen"
+
+[SONA-JO]
+handshape = "BentB"
+placement = "lagd bredvid handen"
+
+[SOWELI]
+handshape = "V"
+orientation = "fingrarna pekande uppåt"
+
+[SULI-SUPA]
+handshape = "FlatB"
+movement = "rörelse uppåt"
+
+[SULI-SUPA-2]
+handshape = "FlatB"
+movement = "rörelse uppåt"
+
+[SULI-TU]
+handshape = "V"
+movement = "rörelse uppåt"
+
+[SULI-TU-2]
+handshape = "V"
+movement = "rörelse uppåt"
+
+[SUNO]
+handshape = "5"
+placement = "lagd bredvid handen"
+
+[SUPA]
+handshape = "FlatB"
+movement = "rörelse i sidled"
+orientation = "handflatan vänd nedåt"
+
+[SUWI]
+handshape = "V"
+placement = "lagd på munnen/hakan"
+
+[TAN]
+handshape = "5"
+movement = "nedåtvänd handflata"
+
+[TASO]
+handshape = "1"
+movement = "fingrarna snärtar uppåt"
+
+[TAWA-KAMA]
+handshape = "L"
+movement = """
+rörelse utåt,
+rörelse inåt,
+rörelse i sidled"""
+
+[TELO]
+handshape = "5"
+movement = "rörelse utåt"
+
+[TENPO-LUKA-MONSI]
+handshape = "V"
+placement = "lagd på motsatt hand"
+
+[TENPO-LUKA-SINPIN]
+handshape = "V"
+placement = "lagd på motsatt hand"
+
+[TENPO-PALISA-LAWA]
+handshape = "V"
+placement = "lagd på halsen"
+
+[TOKI-1]
+handshape = "FlatB"
+movement = "vertikal cirkelrörelse"
+
+[TOKI-2]
+handshape = "FlatB"
+movement = "vertikal cirkelrörelse"
+
+[TOMO]
+handshape = "BentB"
+orientation = "handflatan vänd åt sidan"
+
+[TONSI]
+handshape = "L"
+placement = "lagd bredvid handen"
+
+[TU]
+handshape = "V"
+orientation = "handflatan vänd inåt"
+
+[UNPA]
+handshape = "V"
+movement = "fingrarna snärtar nedåt"
+orientation = "finger pekande uppåt"
+
+[UTA]
+handshape = "1"
+placement = "lagd på munnen/hakan"
+
+[UTALA]
+handshape = "OpenA"
+movement = """
+rörelse utåt,
+rörelse inåt,
+rörelse i sidled"""
+
+[WALO]
+handshape = "F"
+placement = "lagd över ögat"
+
+[WAN]
+handshape = "1"
+orientation = "handflatan vänd inåt"
+
+[WASO-1]
+handshape = "5"
+movement = "fingrarna snärtar nedåt"
+
+[WASO-2]
+handshape = "5"
+movement = "fingrarna snärtar nedåt"
+
+[WAWA]
+handshape = "OpenA"
+movement = "skakande hand"
+placement = "lagd på bröstet/magen"
+
+[WEKA]
+handshape = "FlatB"
+movement = "fingrarna snärtar uppåt"
+
+[WILE-LUKA-OPEN]
+handshape = "5"
+movement = "rörelse inåt"
+
+[WILE-LUPA]
+handshape = "O"
+placement = "lagd på bröstet/magen"
+
+[WILE-OPEN-2]
+handshape = "5"
+movement = "rörelse inåt"
