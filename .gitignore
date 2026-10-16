@@ -1,0 +1,42 @@
+# Built files
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.jar
+*.aar
+
+# Gradle
+.gradle/
+build/
+local.properties
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+out/
+
+# Keystore
+*.jks
+*.keystore
+*.p12
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Crashlytics / Firebase
+google-services.json
+
+# Captures
+captures/
+
+# Assets generated at build time if large (keep dictionary.json if small; it's small)
+app/release/
+app/debug/
+
+# Audio (we committed the bundled 175 mp3s for offline? check)
+# tools working dirs
+tools/data/
+tools/audio_urls.txt
