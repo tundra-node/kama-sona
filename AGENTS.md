@@ -7,6 +7,8 @@ Kotlin, Gradle (Kotlin DSL), Android SDK. Data and build scripts are Python in `
 
 ## Commands
 - Debug build: `./gradlew assembleDebug` (APK in `app/build/outputs/apk/debug/`). `app/build/` is regenerable and ignored.
+- Unit tests: `./gradlew testDebugUnitTest` (JVM, in `app/src/test`). Lint: `./gradlew lintDebug`.
+- JDK: `JAVA_HOME=/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home` (no system Java on this Mac).
 - Install on the phone: `adb install -r <apk>` (use the `s6-device-ops` skill for the device).
 - Dictionary and icons: scripts in `tools/` (`build_dictionary.py`, `make_icons.py`, `check_font_coverage.py`, `ink_check.py`). Run with `python3`.
 
@@ -22,4 +24,4 @@ Kotlin, Gradle (Kotlin DSL), Android SDK. Data and build scripts are Python in `
 - Do not commit build output, `__pycache__`, or `.idea/`.
 
 ## Before committing
-`./gradlew assembleDebug` must succeed. Commit with the noreply identity (`117379918+tundra-node@users.noreply.github.com`).
+`./gradlew assembleDebug testDebugUnitTest` must succeed. Commit with the noreply identity (`117379918+tundra-node@users.noreply.github.com`).
