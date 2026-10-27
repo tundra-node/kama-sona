@@ -8,14 +8,13 @@ import android.view.ViewGroup
 import android.widget.EditText
 import android.widget.LinearLayout
 import android.widget.TextView
+import androidx.appcompat.content.res.AppCompatResources
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.elias.kamasona.R
 import com.elias.kamasona.data.Dict
-import com.elias.kamasona.data.Glyph
 import com.elias.kamasona.data.Word
-import com.elias.kamasona.data.ucsurToChar
 
 class DictionaryFragment : Fragment() {
 
@@ -45,7 +44,7 @@ class DictionaryFragment : Fragment() {
             tv.textSize = 13f
             tv.setPadding(28, 14, 28, 14)
             tv.setTextColor(requireContext().getColor(R.color.textPrimary))
-            tv.background = requireContext().getDrawable(R.drawable.chip_bg)
+            tv.background = AppCompatResources.getDrawable(requireContext(), R.drawable.chip_bg)
             val lp = LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT
             )
@@ -105,6 +104,3 @@ class WordAdapter(private val onClick: (Word) -> Unit) :
         h.itemView.setOnClickListener { onClick(w) }
     }
 }
-
-/** Chip background used by the dictionary filter row. */
-fun chipLabel(g: Glyph): String = ucsurToChar(g.ucsur)

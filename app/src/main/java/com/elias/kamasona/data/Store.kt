@@ -97,6 +97,10 @@ class Store(ctx: Context) : SQLiteOpenHelper(ctx, "kama_sona.db", null, 1) {
         }
     }
 
+    fun hasCards(word: String): Boolean =
+        readableDatabase.rawQuery("SELECT 1 FROM cards WHERE word = ? LIMIT 1", arrayOf(word))
+            .use { it.moveToFirst() }
+
     data class Card(
         val id: Long, val word: String, val direction: String,
         val ease: Double, val intervalDays: Double, val reps: Int,

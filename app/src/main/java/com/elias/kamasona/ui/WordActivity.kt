@@ -8,6 +8,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.content.res.AppCompatResources
 import com.elias.kamasona.R
 import com.elias.kamasona.audio.Speaker
 import com.elias.kamasona.data.Dict
@@ -72,7 +73,7 @@ class WordActivity : AppCompatActivity() {
             tv.text = s
             tv.setPadding(28, 14, 28, 14)
             tv.setTextColor(getColor(R.color.textPrimary))
-            tv.background = getDrawable(R.drawable.chip_bg)
+            tv.background = AppCompatResources.getDrawable(this, R.drawable.chip_bg)
             val lp = LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT
             )
@@ -93,6 +94,7 @@ class WordActivity : AppCompatActivity() {
 
         val addBtn = findViewById<Button>(R.id.addSrs)
         val state = findViewById<TextView>(R.id.srsState)
+        if (store.hasCards(w.word)) state.text = "in the deck"
         addBtn.setOnClickListener {
             store.writableDatabase.execSQL(
                 "INSERT OR IGNORE INTO cards(word,direction,due) VALUES(?,'tp>en',?)," +
