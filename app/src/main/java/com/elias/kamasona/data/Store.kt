@@ -162,22 +162,32 @@ class Store(ctx: Context) : SQLiteOpenHelper(ctx, "kama_sona.db", null, 1) {
             while (c.moveToNext()) out.add(c.getString(0))
             out
         }
-        if (days.isEmpty()) return 0
-        val fmt = java.text.SimpleDateFormat("yyyy-MM-dd", java.util.Locale.US)
-        var streak = 0
-        var cursor = java.util.Calendar.getInstance()
-        val today = fmt.format(cursor.time)
-        if (days[0] != today) {
-            cursor.add(java.util.Calendar.DAY_OF_YEAR, -1)
-            if (days[0] != fmt.format(cursor.time)) return 0
-        }
-        for (d in days) {
-            if (d == fmt.format(cursor.time)) {
-                streak++
+        return streakFrom(days, java.util.Calendar.getInstance())
+    }
+
+    companion object {
+        /**
+         * Length of the run of consecutive days in [daysDesc] (yyyy-MM-dd, newest first)
+         * that ends on [now]'s date or the day before.
+         */
+        fun streakFrom(daysDesc: List<String>, now: java.util.Calendar): Int {
+            if (daysDesc.isEmpty()) return 0
+            val fmt = java.text.SimpleDateFormat("yyyy-MM-dd", java.util.Locale.US)
+            fmt.timeZone = now.timeZone
+            var streak = 0
+            val cursor = now.clone() as java.util.Calendar
+            if (daysDesc[0] != fmt.format(cursor.time)) {
                 cursor.add(java.util.Calendar.DAY_OF_YEAR, -1)
-            } else break
+                if (daysDesc[0] != fmt.format(cursor.time)) return 0
+            }
+            for (d in daysDesc) {
+                if (d == fmt.format(cursor.time)) {
+                    streak++
+                    cursor.add(java.util.Calendar.DAY_OF_YEAR, -1)
+                } else break
+            }
+            return streak
         }
-        return streak
     }
 
     fun todayCounts(): Pair<Int, Int> {
