@@ -12,6 +12,7 @@ import android.os.Build
 import androidx.core.app.NotificationCompat
 import com.elias.kamasona.MainActivity
 import com.elias.kamasona.R
+import com.elias.kamasona.data.Store
 import java.util.Calendar
 
 /**
@@ -23,6 +24,9 @@ object Reminder {
     const val CHANNEL = "kama_sona_daily"
     private const val REQ = 4242
     private const val HOUR = 19 // local 19:00
+
+    // Android 12+ rejects PendingIntents that do not declare mutability.
+    private const val FLAGS = PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
 
     fun ensureScheduled(ctx: Context) {
         val am = ctx.getSystemService(Context.ALARM_SERVICE) as AlarmManager
@@ -38,7 +42,7 @@ object Reminder {
 
     private fun pending(ctx: Context): PendingIntent {
         val i = Intent(ctx, ReminderReceiver::class.java)
-        return PendingIntent.getBroadcast(ctx, REQ, i, PendingIntent.FLAG_UPDATE_CURRENT)
+        return PendingIntent.getBroadcast(ctx, REQ, i, FLAGS)
     }
 
     fun post(ctx: Context) {
@@ -50,7 +54,7 @@ object Reminder {
         }
         val open = PendingIntent.getActivity(
             ctx, 0, Intent(ctx, MainActivity::class.java),
-            PendingIntent.FLAG_UPDATE_CURRENT
+            FLAGS
         )
         val text = (ctx.getSharedPreferences("kama_sona", Context.MODE_PRIVATE)
             .getString("today_word", null))?.let { "o kepeken e nimi \"$it\"" }
@@ -68,6 +72,9 @@ object Reminder {
 
 class ReminderReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {
+        val store = Store(context.applicationContext)
+        val (reviews, sentences) = try { store.todayCounts() } finally { store.close() }
+        if (reviews + sentences > 0) return // already practiced today
         Reminder.post(context)
     }
 }
