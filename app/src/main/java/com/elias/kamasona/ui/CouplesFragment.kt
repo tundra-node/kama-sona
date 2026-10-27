@@ -39,9 +39,17 @@ class CouplesFragment : Fragment() {
     }
 
     private fun fiveWords(): List<String> {
+        val week = weekKey()
         val saved = prefs.getString("weekly_words", null)
-        if (!saved.isNullOrBlank()) return saved.split(",").filter { it.isNotBlank() }
+        // a new week gets a new set of words
+        val savedWeek = prefs.getString("weekly_words_week", null)
+        if (!saved.isNullOrBlank() && (savedWeek == week || savedWeek == null)) {
+            // savedWeek == null: words saved by an older build; keep them for this week
+            if (savedWeek == null) prefs.edit().putString("weekly_words_week", week).apply()
+            return saved.split(",").filter { it.isNotBlank() }
+        }
         val pool = Dict.words.filter { it.isCore && it.category == "core" }
+        if (pool.isEmpty()) return emptyList()
         val picked = LinkedHashSet<String>()
         val rnd = Random(System.currentTimeMillis())
         var guard = 0
@@ -50,7 +58,10 @@ class CouplesFragment : Fragment() {
             picked.add(pool[rnd.nextInt(pool.size)].word)
         }
         val list = picked.toList()
-        prefs.edit().putString("weekly_words", list.joinToString(",")).apply()
+        prefs.edit()
+            .putString("weekly_words", list.joinToString(","))
+            .putString("weekly_words_week", week)
+            .apply()
         return list
     }
 
@@ -102,7 +113,7 @@ class CouplesFragment : Fragment() {
         }
 
         v.findViewById<TextView>(R.id.progressText).text =
-            "mi: $selfDone/5 · jan pona: $partnerDone/5"
+            "mi: $selfDone/${words.size} · jan pona: $partnerDone/${words.size}"
     }
 
     private fun personBox(week: String, word: String, person: String, checked: Boolean): CheckBox {

@@ -17,6 +17,7 @@ import com.elias.kamasona.data.Store
 import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.Date
+import java.util.GregorianCalendar
 import java.util.Locale
 
 class DailyFragment : Fragment() {
@@ -110,9 +111,13 @@ class DailyFragment : Fragment() {
     }
 }
 
-/** ISO-ish week key, e.g. 2026-W42. */
-fun weekKey(): String {
-    val cal = Calendar.getInstance()
+/**
+ * Week key in the device locale's week numbering, e.g. 2026-W42. Uses the week-based
+ * year, so the last days of December that fall in week 1 become next year's W1
+ * instead of colliding with this January's W1.
+ */
+fun weekKey(cal: Calendar = Calendar.getInstance()): String {
     val week = cal.get(Calendar.WEEK_OF_YEAR)
-    return "${cal.get(Calendar.YEAR)}-W$week"
+    val year = (cal as? GregorianCalendar)?.weekYear ?: cal.get(Calendar.YEAR)
+    return "$year-W$week"
 }
