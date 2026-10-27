@@ -26,6 +26,9 @@ class MainActivity : AppCompatActivity() {
         private set
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        // On restore (rotation, process death) the fragment manager recreates the
+        // visible tab inside super.onCreate, and it reads Dict right away.
+        if (savedInstanceState != null) Dict.load(applicationContext)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 

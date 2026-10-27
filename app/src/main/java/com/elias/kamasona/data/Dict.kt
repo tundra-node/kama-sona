@@ -67,9 +67,15 @@ object Dict {
     var loaded = false
         private set
 
+    @Synchronized
     fun load(ctx: Context) {
         if (loaded) return
-        val text = ctx.assets.open("dictionary.json").bufferedReader().use { it.readText() }
+        loadJson(ctx.assets.open("dictionary.json").bufferedReader().use { it.readText() })
+    }
+
+    /** Parse a dictionary.json document. Split out from [load] so unit tests can feed the asset directly. */
+    @Synchronized
+    fun loadJson(text: String) {
         val root = JSONObject(text)
         attribution = root.optString("attribution", "")
 

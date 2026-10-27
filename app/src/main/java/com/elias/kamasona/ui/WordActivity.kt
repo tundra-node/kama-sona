@@ -24,6 +24,8 @@ class WordActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         val name = intent.getStringExtra("word") ?: return finish()
+        // The process may have been killed while this screen was in the back stack.
+        Dict.load(applicationContext)
         val w = Dict.word(name)
         if (w == null) {
             Toast.makeText(this, "unknown word", Toast.LENGTH_SHORT).show()
