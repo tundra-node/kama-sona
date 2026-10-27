@@ -41,3 +41,5 @@ app/debug/
 tools/data/
 tools/audio_urls.txt
 tools/data/
+__pycache__/
+*.pyc
