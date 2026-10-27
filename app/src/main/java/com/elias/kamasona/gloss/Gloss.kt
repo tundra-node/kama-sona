@@ -25,11 +25,11 @@ object Gloss {
     private val PREVERBS = setOf("wile", "ken", "kama", "awen", "sona", "lukin", "open", "pini")
     private val PREPOSITIONS = setOf("kepeken", "tawa", "tan", "lon", "sama", "sike", "nasin")
     private val PARTICLES = setOf("li", "e", "la", "pi", "en", "anu", "o", "n", "kin")
-    private val PRONOUNS = setOf("mi", "sina", "ona", "ni", "mi mute", "sina mute")
-    private val NUMBERS = setOf("wan", "tu", "mute", "ale", "ali", "ala", "luka", "mute")
+    private val PUNCTUATION = Regex("[.,!?;:\"“”«»()]")
 
     fun run(sentence: String): Result {
-        val raw = sentence.trim()
+        // drop punctuation so "moku." and "kili," still match the dictionary
+        val raw = sentence.lowercase().replace(PUNCTUATION, " ").trim().replace(Regex("\\s+"), " ")
         if (raw.isEmpty()) return Result(emptyList(), listOf("write a sentence first"), emptyList())
 
         val notes = ArrayList<String>()
@@ -70,15 +70,35 @@ object Gloss {
                 objectPart = emptyList()
             }
             notes.add("li separates the subject from what is said about it.")
-        } else if (eIdx >= 0) {
-            subjectPart = tokens.subList(0, eIdx)
-            predicatePart = emptyList()
-            objectPart = tokens.subList(eIdx + 1, tokens.size)
-            notes.add("no li here — the subject is mi or sina, or the sentence is an o-command.")
         } else {
-            subjectPart = tokens
-            predicatePart = emptyList()
-            objectPart = emptyList()
+            // no li: the subject is a bare mi or sina, or o starts a command
+            val oIdx = tokens.indexOfFirst { it == "o" }
+            val predStart = when {
+                oIdx >= 0 -> {
+                    notes.add("o marks a command or wish; anything before it is who is addressed.")
+                    oIdx + 1
+                }
+                tokens.size > 1 && tokens[0] in SUBJECT_PRONOUNS -> {
+                    notes.add("no li here: a bare mi or sina subject drops it.")
+                    1
+                }
+                else -> -1
+            }
+            if (predStart >= 0) {
+                subjectPart = tokens.subList(0, if (oIdx >= 0) oIdx else 1)
+                val rest = tokens.subList(predStart, tokens.size)
+                val e = rest.indexOfFirst { it == "e" }
+                predicatePart = if (e >= 0) rest.subList(0, e) else rest
+                objectPart = if (e >= 0) rest.subList(e + 1, rest.size) else emptyList()
+            } else if (eIdx >= 0) {
+                subjectPart = tokens.subList(0, eIdx)
+                predicatePart = emptyList()
+                objectPart = tokens.subList(eIdx + 1, tokens.size)
+            } else {
+                subjectPart = tokens
+                predicatePart = emptyList()
+                objectPart = emptyList()
+            }
         }
 
         fun describe(parts: List<String>, role: Role) {
