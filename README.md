@@ -91,6 +91,13 @@ Bug fixes, unit tests, and this README were written with help from an AI coding 
 
 - Code: MIT, see [LICENSE](LICENSE).
 - Dictionary data: [lipu Linku](https://linku.la) (sona), CC BY-SA 4.0. The bundled
-  `dictionary.json` is a derived work under the same license.
+  `dictionary.json` is a derived work under the same license. See
+  `tools/data/sona/LICENSE`.
+- Dictionary API code: [lipu-linku/ijo](https://github.com/lipu-linku/ijo), GNU GPL v3.
+  See `tools/data/sona/api/LICENSE`.
 - Glyphs: [nasin-nanpa](https://github.com/ETBCOR/nasin-nanpa) by jan Itan, MIT.
 - Audio: community recordings by kala Asi, via [lipu-linku/ijo](https://github.com/lipu-linku/ijo).
+  **Note:** `lipu-linku/ijo` has no LICENSE file, so the bundled MP3 clips do not have a
+  confirmed redistribution license. If you need the app to be fully redistributable, remove
+  `app/src/main/assets/audio/` and use `tools/audio_urls.txt` to fetch clips at build time,
+  or obtain a license from kala Asi before shipping.
