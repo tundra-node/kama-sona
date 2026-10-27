@@ -84,18 +84,16 @@ class TrainerFragment : Fragment() {
         val target = pool[Random.nextInt(pool.size)]
         quizWord = target
 
-        val kind = Random.nextInt(2)
         val qView = v.findViewById<TextView>(R.id.quizQuestion)
+        // glyph question: only ask it if the bundled font can actually draw the glyph,
+        // otherwise the question would just be the word and the answer would be free
+        val glyph = if (Random.nextInt(2) == 0) Sitelen.glyphText(qView, target) else ""
+        val kind = if (glyph.isNotEmpty()) 0 else 1
+        if (kind == 1) qView.typeface = android.graphics.Typeface.DEFAULT
         val question: String
         val correct: String
         if (kind == 0) {
-            // glyph question: only ask it if the bundled font can actually draw the glyph
-            val g = Sitelen.glyphText(qView, target)
-            if (g.isNotEmpty()) {
-                question = g
-            } else {
-                question = target.word
-            }
+            question = glyph
             correct = "${target.word} — ${target.shortDef}"
         } else {
             question = target.shortDef
@@ -114,7 +112,7 @@ class TrainerFragment : Fragment() {
         }
         options.shuffle(Random(System.currentTimeMillis()))
 
-        v.findViewById<TextView>(R.id.quizQuestion).text = question
+        qView.text = question
         val box = v.findViewById<LinearLayout>(R.id.quizOptions)
         box.removeAllViews()
         for (o in options) {
