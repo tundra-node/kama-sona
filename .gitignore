@@ -5,6 +5,7 @@
 *.dex
 *.class
 *.jar
+!gradle/wrapper/gradle-wrapper.jar
 *.aar
 
 # Gradle
@@ -16,30 +17,28 @@ local.properties
 *.iml
 .idea/
 out/
+captures/
+app/release/
+app/debug/
 
-# Keystore
+# Signing (never commit)
 *.jks
 *.keystore
 *.p12
+keystore.properties
+
+# Firebase
+google-services.json
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Crashlytics / Firebase
-google-services.json
+# Agent / editor local state
+.opencode/
 
-# Captures
-captures/
-
-# Assets generated at build time if large (keep dictionary.json if small; it's small)
-app/release/
-app/debug/
-
-# Audio (we committed the bundled 175 mp3s for offline? check)
-# tools working dirs
+# tools/ working files (re-created by build_dictionary.py)
 tools/data/
 tools/audio_urls.txt
-tools/data/
 __pycache__/
 *.pyc
