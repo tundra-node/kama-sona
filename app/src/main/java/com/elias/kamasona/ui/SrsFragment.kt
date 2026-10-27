@@ -69,11 +69,7 @@ class SrsFragment : Fragment() {
 
     private fun refresh() {
         val st = store.stats()
-        statsTv.text = buildString {
-            append("cards ${st.total} · new ${st.newCards} · learned ${st.learned} · due ${st.due}")
-            val streak = store.streak()
-            if (streak > 0) append(" · streak ${streak} d")
-        }
+        statsTv.text = statsLine()
         // Only offer seeding while the deck is smaller than the full dictionary.
         // (Before: adding one word from the dictionary hid this forever.)
         val full = Dict.words.size * 3
@@ -131,7 +127,9 @@ class SrsFragment : Fragment() {
                 answer.text = "${w.word} — ${w.shortDef}"
             }
         }
-        Speaker.say(requireContext(), w.word)
+        // Only speak up front when the prompt is the toki pona word itself;
+        // otherwise the audio would give the answer away.
+        if (c.direction == "tp>en") Speaker.say(requireContext(), w.word)
     }
 
     private fun showAnswer() {
@@ -139,6 +137,7 @@ class SrsFragment : Fragment() {
         reveal.visibility = View.GONE
         grades.visibility = View.VISIBLE
         val c = queue[pos]
+        if (c.direction != "tp>en") Speaker.say(requireContext(), c.word)
         // preview each interval so the buttons mean something
         val labels = listOf(Srs.AGAIN, Srs.HARD, Srs.GOOD, Srs.EASY).map {
             Srs.intervalLabel(Srs.schedule(c, it))
@@ -164,7 +163,15 @@ class SrsFragment : Fragment() {
     }
 
     private fun refreshStatsOnly() {
+        statsTv.text = statsLine()
+    }
+
+    private fun statsLine(): String {
         val st = store.stats()
-        statsTv.text = "cards ${st.total} · new ${st.newCards} · learned ${st.learned} · due ${st.due}"
+        return buildString {
+            append("cards ${st.total} · new ${st.newCards} · learned ${st.learned} · due ${st.due}")
+            val streak = store.streak()
+            if (streak > 0) append(" · streak ${streak} d")
+        }
     }
 }
